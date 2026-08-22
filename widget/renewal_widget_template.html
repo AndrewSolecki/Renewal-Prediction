@@ -1,0 +1,561 @@
+<title>Renewal Likelihood</title>
+<style>
+  :root {
+    --bg: #F1F4F2;
+    --surface: #FFFFFF;
+    --surface-2: #E9EDEA;
+    --ink: #17211D;
+    --ink-muted: #56655D;
+    --line: #D7DED9;
+    --accent: #245C52;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #DCEAE4;
+    --good: #1F7A4D;
+    --good-soft: #E3F3E8;
+    --warn: #A6720A;
+    --warn-soft: #FBEFD8;
+    --bad: #A23B2E;
+    --bad-soft: #F7E4E0;
+    --shadow: 0 1px 2px rgba(23,33,29,0.06), 0 8px 24px -12px rgba(23,33,29,0.18);
+    --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121815;
+      --surface: #1A211D;
+      --surface-2: #202920;
+      --ink: #E7ECE8;
+      --ink-muted: #9BAAA1;
+      --line: #2C362F;
+      --accent: #5FBFA5;
+      --accent-ink: #0B1512;
+      --accent-soft: #1E3A32;
+      --good: #4FBE83;
+      --good-soft: #16301F;
+      --warn: #E0AC3D;
+      --warn-soft: #3A2C10;
+      --bad: #E2705C;
+      --bad-soft: #3B1D17;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #121815;
+    --surface: #1A211D;
+    --surface-2: #202920;
+    --ink: #E7ECE8;
+    --ink-muted: #9BAAA1;
+    --line: #2C362F;
+    --accent: #5FBFA5;
+    --accent-ink: #0B1512;
+    --accent-soft: #1E3A32;
+    --good: #4FBE83;
+    --good-soft: #16301F;
+    --warn: #E0AC3D;
+    --warn-soft: #3A2C10;
+    --bad: #E2705C;
+    --bad-soft: #3B1D17;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+  ::selection { background: var(--accent-soft); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .page { max-width: 1180px; margin: 0 auto; padding: 40px 24px 64px; }
+
+  header.masthead {
+    display: flex; flex-direction: column; gap: 6px;
+    margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--line);
+  }
+  .eyebrow {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.09em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  header.masthead h1 { font-size: 28px; }
+  header.masthead p { margin: 4px 0 0; color: var(--ink-muted); max-width: 60ch; font-size: 14.5px; }
+
+  .layout { display: grid; grid-template-columns: 1.35fr 1fr; gap: 28px; align-items: start; }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); }
+
+  form.card { padding: 4px 28px 28px; }
+
+  fieldset { border: 0; margin: 0; padding: 20px 0; border-bottom: 1px solid var(--line); }
+  fieldset:last-of-type { border-bottom: 0; }
+  fieldset legend { font-family: var(--serif); font-size: 16px; font-weight: 600; padding: 0; margin-bottom: 4px; }
+  fieldset .hint { color: var(--ink-muted); font-size: 12.5px; margin: 0 0 14px; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 18px; }
+  @media (max-width: 520px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label.field-label { font-size: 12.5px; font-weight: 600; letter-spacing: 0.01em; color: var(--ink-muted); }
+  .field input[type="number"], .field input[type="text"], .field select {
+    font-family: var(--mono); font-size: 14px; color: var(--ink); background: var(--surface-2);
+    border: 1px solid var(--line); border-radius: 6px; padding: 9px 10px; width: 100%;
+  }
+  .field select { font-family: var(--sans); }
+  .field input:focus-visible, .field select:focus-visible { outline-offset: 1px; }
+
+  .field-inline {
+    display: flex; align-items: center; gap: 9px; font-size: 13.5px; padding: 9px 10px;
+    background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px;
+  }
+  .field-inline input[type="checkbox"] { width: 15px; height: 15px; accent-color: var(--accent); }
+
+  .slider-field { display: flex; flex-direction: column; gap: 6px; }
+  .slider-row { display: flex; align-items: center; gap: 10px; }
+  .slider-row input[type="range"] { flex: 1; accent-color: var(--accent); }
+  .slider-value {
+    font-family: var(--mono); font-size: 13px; min-width: 3.4em; text-align: right;
+    color: var(--ink); font-variant-numeric: tabular-nums;
+  }
+
+  .actions { display: flex; gap: 10px; margin-top: 20px; }
+  button {
+    font-family: var(--sans); font-size: 14px; font-weight: 600; border-radius: 7px;
+    padding: 11px 18px; cursor: pointer; border: 1px solid transparent;
+  }
+  button.primary { background: var(--accent); color: var(--accent-ink); }
+  button.primary:hover { filter: brightness(1.06); }
+  button.ghost { background: transparent; color: var(--ink-muted); border-color: var(--line); }
+  button.ghost:hover { color: var(--ink); border-color: var(--ink-muted); }
+
+  .results { position: sticky; top: 24px; display: flex; flex-direction: column; gap: 16px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .results { order: -1; position: static; }
+  }
+  .results-card { padding: 26px 26px 22px; }
+
+  .result-heading {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.09em;
+    text-transform: uppercase; color: var(--ink-muted); margin-bottom: 10px;
+  }
+
+  .prob-readout { display: flex; align-items: baseline; gap: 6px; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .prob-readout .num { font-size: 52px; font-weight: 600; line-height: 1; }
+  .prob-readout .pct { font-size: 22px; color: var(--ink-muted); }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600;
+    padding: 4px 10px 4px 8px; border-radius: 999px; margin-top: 10px;
+  }
+  .pill .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .pill.good { background: var(--good-soft); color: var(--good); }
+  .pill.good .dot { background: var(--good); }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.warn .dot { background: var(--warn); }
+  .pill.bad { background: var(--bad-soft); color: var(--bad); }
+  .pill.bad .dot { background: var(--bad); }
+
+  .gauge-track {
+    margin-top: 18px; height: 10px; border-radius: 999px;
+    background: linear-gradient(90deg, var(--bad) 0%, var(--warn) 50%, var(--good) 100%);
+    opacity: 0.35; position: relative;
+  }
+  .gauge-marker {
+    position: absolute; top: -5px; width: 3px; height: 20px; border-radius: 2px;
+    background: var(--ink); transform: translateX(-1.5px); transition: left 0.25s ease;
+  }
+  @media (prefers-reduced-motion: reduce) { .gauge-marker { transition: none; } }
+
+  .results-note { font-size: 13px; color: var(--ink-muted); margin-top: 14px; }
+
+  .signals-card { padding: 20px 22px; }
+  .signals-card h3 { font-size: 14.5px; margin-bottom: 4px; }
+  .signals-card .hint { color: var(--ink-muted); font-size: 12px; margin: 0 0 12px; }
+  .signal-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+  .signal-list li { display: flex; align-items: center; gap: 10px; font-size: 12.5px; }
+  .signal-bar-track { flex: 1; height: 5px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+  .signal-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  .signal-name { width: 148px; flex-shrink: 0; color: var(--ink-muted); }
+  .signal-name b { color: var(--ink); font-weight: 600; }
+  .signal-pts { width: 34px; flex-shrink: 0; text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--ink); }
+
+  .caveat-card { padding: 16px 20px; font-size: 12px; color: var(--ink-muted); line-height: 1.55; }
+  .caveat-card b { color: var(--ink); }
+
+  footer.provenance {
+    margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 11.5px; color: var(--ink-muted);
+  }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <span class="eyebrow">Renewal Prediction Demo &middot; Anonymized Sample Data</span>
+    <h1>Will this tenant renew?</h1>
+    <p>A public, fully anonymized demo built from a mid-size apartment property's lease history. Enter what
+    you know about the lease, unit, payment history, screening, and maintenance record &mdash; the estimate
+    updates as you type, using a model trained on 522 historical lease decisions. See the
+    <a href="../notebook/renewal_prediction.ipynb">companion notebook</a> for how it was built.</p>
+  </header>
+
+  <div class="layout">
+    <form class="card" id="predictForm">
+      <fieldset>
+        <legend>Lease terms</legend>
+        <p class="hint">The current or upcoming lease term being evaluated.</p>
+        <div class="grid-2">
+          <label class="field">
+            <span class="field-label">Current monthly rent ($)</span>
+            <input type="number" id="Rent" step="1" min="0" placeholder="1710">
+          </label>
+          <label class="field">
+            <span class="field-label">Term length (days)</span>
+            <input type="number" id="Term_Days" step="1" min="1" placeholder="360">
+          </label>
+          <label class="field">
+            <span class="field-label">Lease start month</span>
+            <select id="lease_start_month">
+              <option value="">Typical (July)</option>
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field-label">Unit floor</span>
+            <select id="unit_floor">
+              <option value="">Typical (12th floor)</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+            </select>
+          </label>
+          <label class="field" style="grid-column: 1 / -1;">
+            <span class="field-label">Unit type</span>
+            <select id="sqft">
+              <option value="">Typical (~810 sf)</option>
+              <option value="580">Unit Type 1 (580 sf)</option>
+              <option value="580">Unit Type 2 (580 sf)</option>
+              <option value="595">Unit Type 3 (595 sf)</option>
+              <option value="610">Unit Type 4 (610 sf)</option>
+              <option value="620">Unit Type 5 (620 sf)</option>
+              <option value="620">Unit Type 6 (620 sf)</option>
+              <option value="745">Unit Type 7 (745 sf)</option>
+              <option value="755">Unit Type 8 (755 sf)</option>
+              <option value="775">Unit Type 9 (775 sf)</option>
+              <option value="780">Unit Type 10 (780 sf)</option>
+              <option value="870">Unit Type 11 (870 sf)</option>
+              <option value="925">Unit Type 12 (925 sf)</option>
+              <option value="925">Unit Type 13 (925 sf)</option>
+              <option value="926">Unit Type 14 (926 sf)</option>
+              <option value="975">Unit Type 15 (975 sf)</option>
+              <option value="976">Unit Type 16 (976 sf)</option>
+              <option value="1020">Unit Type 17 (1020 sf)</option>
+            </select>
+          </label>
+        </div>
+        <div class="field-inline" style="margin-top: 12px;">
+          <input type="checkbox" id="Is_Month_To_Month">
+          <label for="Is_Month_To_Month">This term is month-to-month</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment history</legend>
+        <p class="hint">From the current rent roll, if the tenant is still active. A negative past-due balance is a real credit on the account, not an error.</p>
+        <div class="grid-2">
+          <label class="field">
+            <span class="field-label">Current past-due balance ($)</span>
+            <input type="number" id="current_past_due" step="1" placeholder="9">
+          </label>
+          <label class="field">
+            <span class="field-label">Late payment count</span>
+            <input type="number" id="current_late_count" step="1" min="0" placeholder="0">
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Screening (at move-in)</legend>
+        <p class="hint">From the applicant's original screening assessment.</p>
+        <div class="grid-2">
+          <label class="field">
+            <span class="field-label">Screenings on file</span>
+            <input type="number" id="screening_count" step="1" min="0" placeholder="1">
+          </label>
+          <div></div>
+        </div>
+        <div class="grid-2" style="margin-top: 12px;">
+          <div class="field-inline">
+            <input type="checkbox" id="ever_conditions_applied">
+            <label for="ever_conditions_applied">Conditions applied at screening</label>
+          </div>
+          <div class="field-inline">
+            <input type="checkbox" id="ever_overridden">
+            <label for="ever_overridden">Screening result was overridden</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Maintenance &amp; satisfaction</legend>
+        <p class="hint">History prior to this lease term. Leave sliders alone if no surveys exist.</p>
+        <div class="grid-2">
+          <label class="field">
+            <span class="field-label">Work orders filed</span>
+            <input type="number" id="work_order_count" step="1" min="0" placeholder="9">
+          </label>
+          <label class="field">
+            <span class="field-label">Avg. work order cost ($)</span>
+            <input type="number" id="avg_work_order_amount" step="1" min="0" placeholder="0">
+          </label>
+          <label class="field">
+            <span class="field-label">Satisfaction surveys completed</span>
+            <input type="number" id="survey_count" step="1" min="0" placeholder="2">
+          </label>
+        </div>
+        <div class="grid-2" style="margin-top: 14px;">
+          <div class="slider-field">
+            <span class="field-label">Avg. satisfaction (1&ndash;5)</span>
+            <div class="slider-row">
+              <input type="range" id="avg_satisfaction" min="1" max="5" step="0.5" value="5">
+              <span class="slider-value" id="avg_satisfaction_val">5.0</span>
+            </div>
+          </div>
+          <div class="slider-field">
+            <span class="field-label">Issue resolved rate</span>
+            <div class="slider-row">
+              <input type="range" id="resolved_rate" min="0" max="100" step="5" value="100">
+              <span class="slider-value" id="resolved_rate_val">100%</span>
+            </div>
+          </div>
+          <div class="slider-field">
+            <span class="field-label">Timely completion rate</span>
+            <div class="slider-row">
+              <input type="range" id="timely_rate" min="0" max="100" step="5" value="100">
+              <span class="slider-value" id="timely_rate_val">100%</span>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="actions">
+        <button type="button" class="primary" id="predictBtn">Predict renewal likelihood</button>
+        <button type="button" class="ghost" id="resetBtn">Reset to typical tenant</button>
+      </div>
+    </form>
+
+    <div class="results">
+      <div class="card results-card">
+        <div class="result-heading">Predicted renewal likelihood</div>
+        <div class="prob-readout"><span class="num" id="probNum">75</span><span class="pct">%</span></div>
+        <span class="pill good" id="probPill"><span class="dot"></span><span id="probPillText">Likely to renew</span></span>
+        <div class="gauge-track"><div class="gauge-marker" id="gaugeMarker" style="left: 75%;"></div></div>
+        <p class="results-note">Based on a regularized Gradient Boosting model trained on 522 historical lease decisions from an anonymized mid-size apartment property (cross-validated ROC AUC &asymp; 0.66). Treat this as a directional signal, not a guarantee for any individual tenant.</p>
+      </div>
+
+      <div class="card signals-card">
+        <h3>What actually moves this estimate</h3>
+        <p class="hint">Measured properly: the average effect of moving one field across its typical range, computed across every lease in the training data (not just one hypothetical "typical" tenant). Most other fields (screening, late payments) move it 3 points or less.</p>
+        <ul class="signal-list">
+          <li><span class="signal-name">Start month</span><span class="signal-bar-track"><span class="signal-bar-fill" style="width: 100%;"></span></span><span class="signal-pts">+13pt</span></li>
+          <li><span class="signal-name">Unit size</span><span class="signal-bar-track"><span class="signal-bar-fill" style="width: 87%;"></span></span><span class="signal-pts">+12pt</span></li>
+          <li><span class="signal-name">Resolved rate (higher &uarr;)</span><span class="signal-bar-track"><span class="signal-bar-fill" style="width: 54%;"></span></span><span class="signal-pts">+7pt</span></li>
+          <li><span class="signal-name">Work orders (more &darr;)</span><span class="signal-bar-track"><span class="signal-bar-fill" style="width: 49%;"></span></span><span class="signal-pts">&minus;6pt</span></li>
+          <li><span class="signal-name">Term (longer &darr;)</span><span class="signal-bar-track"><span class="signal-bar-fill" style="width: 42%;"></span></span><span class="signal-pts">&minus;6pt</span></li>
+          <li><span class="signal-name">Floor (higher &darr;)</span><span class="signal-bar-track"><span class="signal-bar-fill" style="width: 39%;"></span></span><span class="signal-pts">&minus;5pt</span></li>
+        </ul>
+        <p class="hint" style="margin: 12px 0 0;">Unit size is the one addition here with no missing-data caveats at all &mdash; it's joined by unit number rather than tenant name, so it's fully observed for 100% of leases. Start month (seasonality) is the strongest signal and has held up unchanged through every correction made while building this model (see the notebook). Floor's swing is measured on a few dozen leases per floor, so treat it as suggestive rather than conclusive. Rent's effect is small (a couple of points) and not shown above.</p>
+      </div>
+
+      <div class="card caveat-card">
+        <b>About this model.</b> Trained on a single anonymized property's lease records. Rent-roll and survey history only cover tenants who are currently active or who left a survey, so those fields are often blank &mdash; the model falls back to the training-set median automatically. Two fields that looked highly predictive (previous rent, unit transfer) were deliberately excluded because they're only recorded <i>after</i> a renewal happens. A "resident-requested work orders" field was removed entirely (always 0 in this data), and bedrooms/bathrooms were tested and dropped too &mdash; a trained model never split on either one, since unit size already captures the same information. Past-due balance is sensitive right around its typical value &mdash; leave it blank rather than guessing a round number unless you have the exact figure.
+        <br><br>
+        <b>Anonymization.</b> All tenant, applicant, staff, and vendor names were replaced with placeholder identities before this model was ever trained, and unit type names were replaced with generic labels. See <code>data/README.md</code> in this repository for exactly how, and the notebook for the full modeling history (including two data-leakage bugs and an overfitting problem that were found and fixed along the way).
+      </div>
+    </div>
+  </div>
+
+  <footer class="provenance">renewal_prediction.ipynb &middot; gradient boosting, 100 trees, depth 2, regularized &middot; anonymized training set: 522 lease records</footer>
+</div>
+
+<script id="model-data" type="application/json">%%MODEL_JSON%%</script>
+<script>
+(function () {
+  const model = JSON.parse(document.getElementById('model-data').textContent);
+
+  const defaults = {
+    resolved_rate: model.num_medians.resolved_rate * 100,
+    timely_rate: model.num_medians.timely_rate * 100,
+    avg_satisfaction: model.num_medians.avg_satisfaction,
+  };
+
+  function sigmoid(x) { return 1 / (1 + Math.exp(-x)); }
+
+  function num(id) {
+    const el = document.getElementById(id);
+    const v = el.value.trim();
+    return v === '' ? null : parseFloat(v);
+  }
+
+  // Counts and dollar amounts that can never be negative in real data -- clamped here as a
+  // safety net regardless of whether the field's own blur-correction already ran.
+  function numNonNegative(id) {
+    const v = num(id);
+    return v !== null && v < 0 ? 0 : v;
+  }
+
+  function readInputs() {
+    return {
+      Term_Days: numNonNegative('Term_Days'),
+      Rent: numNonNegative('Rent'),
+      current_past_due: num('current_past_due'), // negative here is a real credit balance
+      current_late_count: numNonNegative('current_late_count'),
+      screening_count: numNonNegative('screening_count'),
+      avg_satisfaction: parseFloat(document.getElementById('avg_satisfaction').value),
+      resolved_rate: parseFloat(document.getElementById('resolved_rate').value) / 100,
+      timely_rate: parseFloat(document.getElementById('timely_rate').value) / 100,
+      survey_count: numNonNegative('survey_count'),
+      work_order_count: numNonNegative('work_order_count'),
+      avg_work_order_amount: numNonNegative('avg_work_order_amount'),
+      lease_start_month: num('lease_start_month'),
+      Is_Month_To_Month: document.getElementById('Is_Month_To_Month').checked ? 1 : 0,
+      ever_conditions_applied: document.getElementById('ever_conditions_applied').checked ? 1 : 0,
+      ever_overridden: document.getElementById('ever_overridden').checked ? 1 : 0,
+      unit_floor: num('unit_floor'),
+      sqft: num('sqft'),
+    };
+  }
+
+  function predict(row) {
+    const vec = [];
+    model.numeric_features.forEach(function (feat) {
+      let v = row[feat];
+      if (v === null || v === undefined || isNaN(v)) v = model.num_medians[feat];
+      vec.push((v - model.num_means[feat]) / model.num_scales[feat]);
+    });
+    model.binary_features.forEach(function (feat) {
+      let v = row[feat];
+      if (v === null || v === undefined || isNaN(v)) v = 0;
+      vec.push(v);
+    });
+    model.categorical_features.forEach(function (feat) {
+      let v = row[feat];
+      if (v === null || v === undefined || isNaN(v)) v = model.cat_mode[feat];
+      vec.push(v);
+    });
+
+    let raw = model.bias;
+    model.trees.forEach(function (tree) {
+      let node = tree[0];
+      while (!node.leaf) {
+        node = vec[node.feature] <= node.threshold ? tree[node.left] : tree[node.right];
+      }
+      raw += model.learning_rate * node.value;
+    });
+    return sigmoid(raw);
+  }
+
+  function updateGauge(p) {
+    const pct = Math.round(p * 100);
+    document.getElementById('probNum').textContent = pct;
+    document.getElementById('gaugeMarker').style.left = pct + '%';
+    const pill = document.getElementById('probPill');
+    const pillText = document.getElementById('probPillText');
+    pill.classList.remove('good', 'warn', 'bad');
+    if (p >= 0.65) { pill.classList.add('good'); pillText.textContent = 'Likely to renew'; }
+    else if (p >= 0.35) { pill.classList.add('warn'); pillText.textContent = 'Uncertain'; }
+    else { pill.classList.add('bad'); pillText.textContent = 'At risk of not renewing'; }
+  }
+
+  function runPrediction() {
+    const row = readInputs();
+    const p = predict(row);
+    updateGauge(p);
+  }
+
+  // Numeric fields are intentionally left BLANK (not pre-filled with the rounded median shown
+  // in the placeholder) so a blank field always resolves through the exact same num_medians
+  // value used at training time -- this model turned out to be unexpectedly sensitive right at
+  // a couple of feature medians, so a rounded stand-in can visibly skew the result. Only the
+  // sliders (which can't be "blank") are set to their exact median.
+  function applyDefaults() {
+    ['Rent', 'Term_Days', 'unit_floor', 'current_past_due', 'current_late_count',
+     'screening_count', 'work_order_count', 'avg_work_order_amount',
+     'survey_count'].forEach(function (id) {
+      document.getElementById(id).value = '';
+    });
+    document.getElementById('lease_start_month').value = '';
+    document.getElementById('sqft').value = '';
+    document.getElementById('avg_satisfaction').value = defaults.avg_satisfaction;
+    document.getElementById('resolved_rate').value = defaults.resolved_rate;
+    document.getElementById('timely_rate').value = defaults.timely_rate;
+    document.getElementById('Is_Month_To_Month').checked = false;
+    document.getElementById('ever_conditions_applied').checked = false;
+    document.getElementById('ever_overridden').checked = false;
+    syncSliderLabels();
+    runPrediction();
+  }
+
+  function syncSliderLabels() {
+    document.getElementById('avg_satisfaction_val').textContent = parseFloat(document.getElementById('avg_satisfaction').value).toFixed(1);
+    document.getElementById('resolved_rate_val').textContent = document.getElementById('resolved_rate').value + '%';
+    document.getElementById('timely_rate_val').textContent = document.getElementById('timely_rate').value + '%';
+  }
+
+  ['avg_satisfaction', 'resolved_rate', 'timely_rate'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', function () { syncSliderLabels(); runPrediction(); });
+  });
+
+  // These fields are counts or dollar amounts that can never be negative in real data
+  // (unlike current_past_due, where negative is a genuine credit balance). Correct on
+  // blur rather than every keystroke so typing isn't interrupted mid-entry.
+  const NON_NEGATIVE_IDS = ['Rent', 'Term_Days', 'current_late_count', 'screening_count',
+    'work_order_count', 'avg_work_order_amount', 'survey_count'];
+  NON_NEGATIVE_IDS.forEach(function (id) {
+    document.getElementById(id).addEventListener('blur', function (e) {
+      if (e.target.value !== '' && parseFloat(e.target.value) < 0) {
+        e.target.value = '0';
+        runPrediction();
+      }
+    });
+  });
+
+  document.getElementById('predictForm').addEventListener('input', function (e) {
+    if (e.target.type !== 'range') runPrediction();
+  });
+  document.getElementById('predictBtn').addEventListener('click', runPrediction);
+  document.getElementById('resetBtn').addEventListener('click', applyDefaults);
+
+  applyDefaults();
+})();
+</script>

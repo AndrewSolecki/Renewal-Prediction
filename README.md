@@ -5,7 +5,7 @@ property's leasing data — and, more importantly, a record of everything that w
 to a trustworthy answer: an overfit model, two separate data-leakage bugs, and a name-matching bug
 that silently undercounted a specific group of tenants.
 
-**[Try the live widget](widget/renewal_widget.html)** — open it directly in a browser, no server or
+**[Try the live widget](widget/renewal_widget.html)** open it directly in a browser, no server or
 install needed. Enter a hypothetical tenant's lease, unit, payment, and maintenance details and see
 the predicted renewal probability update live.
 
@@ -15,19 +15,19 @@ After four rounds of finding and fixing real problems (see the notebook for the 
 signals survive every check:
 
 - **Seasonality is the strongest, most reliable driver.** Leases starting in late spring through
-  early fall renew noticeably more often than winter starts (~13pt swing) — this held up unchanged
+  early fall renew noticeably more often than winter starts (~13pt swing) this held up unchanged
   through every correction made along the way.
 - **Unit size is the second-strongest, and the most trustworthy in a different way**: it's joined
   by unit number rather than tenant name, so unlike almost every other field in this dataset, it's
   100% observed with no missing-data caveats. Bigger units renew more.
-- Rent, lease term, and unit floor have real but modest effects — and rent's effect **reversed
+- Rent, lease term, and unit floor have real but modest effects and rent's effect **reversed
   direction entirely** once a data artifact was found and fixed (see below). Treat these as
   directional hints, not levers to act on with confidence.
 - Screening results, satisfaction surveys, and maintenance history individually move the estimate
   only a few points — not because they don't matter, but because roughly a third to two-thirds of
   the training data doesn't have them (a real data-coverage limit, not a modeling failure).
 
-The cross-validated model (Gradient Boosting, regularized) reaches a ROC AUC of ~0.66 — real,
+The cross-validated model (Gradient Boosting, regularized) reaches a ROC AUC of ~0.66 real,
 useful discrimination, but nowhere near "confident individual prediction" territory. The [companion
 notebook](notebook/renewal_prediction.ipynb) is honest about that limit throughout.
 

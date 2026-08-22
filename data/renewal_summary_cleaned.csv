@@ -1,0 +1,546 @@
+Unit Name,Tenant Name,Lease Start,Lease End,Previous Lease Start,Previous Lease End,Previous Rent,Rent,Percent Difference,Dollar Difference,Status,Term,Tenant Transfer,Term_Days,Is_Month_To_Month,Last,First,Middle
+1803,"Reed, Maria A.",2020-01-02,2022-01-26,2019-01-30,2020-04-26,1195.0,1995.0,66.95,800.0,Renewed,24 mo 25 day,Yes,745.0,False,Reed,Maria,A
+1403,"Anderson, Ashley B.",2020-02-27,2021-02-26,,,,2395.0,,,Did Not Renew,12 month,No,360.0,False,Anderson,Ashley,B
+1805,"Campbell, Raymond C.",2020-02-27,2021-02-26,,,,1620.0,,,Did Not Renew,12 month,No,360.0,False,Campbell,Raymond,C
+1805,"Campbell, Raymond C.",2020-02-27,,,,,1620.0,,,Did Not Renew,Month To Month,No,,True,Campbell,Raymond,C
+1805,"Campbell, Raymond C.",2020-02-27,2021-02-26,,,,1620.0,,,Did Not Renew,12 month,No,360.0,False,Campbell,Raymond,C
+1805,"Campbell, Raymond C.",2020-02-27,2020-08-26,,,,1620.0,,,Did Not Renew,6 month,No,180.0,False,Campbell,Raymond,C
+1805,"Campbell, Raymond C.",2020-02-27,2020-08-26,2019-02-26,2020-02-26,1565.0,1620.0,3.51,55.0,Renewed,6 month,No,180.0,False,Campbell,Raymond,C
+2007,"Evans, Christina D.",2020-02-27,2020-08-26,2019-02-22,2020-02-26,1175.0,1275.0,8.51,100.0,Renewed,6 month,No,180.0,False,Evans,Christina,D
+2307,"Clark, Evelyn E.",2020-02-27,2021-02-26,,,,1325.0,,,Did Not Renew,12 month,No,360.0,False,Clark,Evelyn,E
+2307,"Clark, Evelyn E.",2020-02-27,2020-08-26,2019-02-26,2020-02-26,1285.0,1325.0,3.11,40.0,Renewed,6 month,No,180.0,False,Clark,Evelyn,E
+1403,"Hughes, Emily F.",2020-03-16,2023-01-26,2020-03-16,2021-01-26,0.0,0.0,,0.0,Renewed,34 mo 11 day,Yes,1031.0,False,Hughes,Emily,F
+1806,"Brown, Helen G.",2020-03-27,2021-03-26,,,,1945.0,,,Did Not Renew,12 month,No,360.0,False,Brown,Helen,G
+2001,"Ramirez, Henry H.",2020-03-27,2021-03-26,2019-04-01,2020-03-26,1225.0,1250.0,2.04,25.0,Renewed,12 month,No,360.0,False,Ramirez,Henry,H
+2407,"Hernandez, Victoria J.",2020-03-27,2021-03-26,2018-12-27,2020-03-26,1195.0,1295.0,8.37,100.0,Renewed,12 month,No,360.0,False,Hernandez,Victoria,J
+1802,"Ramirez, Henry H.",2020-04-01,,2020-04-01,2021-03-26,0.0,0.0,,0.0,Renewed,Month To Month,Yes,,True,Ramirez,Henry,H
+1702,"Gutierrez, Thomas K.",2020-04-27,2021-04-26,2019-05-01,2020-04-26,1255.0,1300.0,3.59,45.0,Renewed,12 month,No,360.0,False,Gutierrez,Thomas,K
+1907,"Flores, Kenneth L.",2020-04-27,2021-04-26,2019-05-01,2020-04-26,1265.0,1325.0,4.74,60.0,Renewed,12 month,No,360.0,False,Flores,Kenneth,L
+2306,"Green, Amanda M.",2020-04-27,2021-04-26,2019-01-30,2020-04-26,1825.0,1875.0,2.74,50.0,Renewed,12 month,No,360.0,False,Green,Amanda,M
+2501,"Wright, Tyler N.",2020-04-27,2021-04-26,,,,1460.0,,,Did Not Renew,12 month,No,360.0,False,Wright,Tyler,N
+2501,"Wright, Tyler N.",2020-04-27,2020-11-26,2019-08-13,2020-04-26,1445.0,1445.0,0.0,0.0,Renewed,7 month,No,210.0,False,Wright,Tyler,N
+2305,"Wood, Lauren P.",2020-05-01,2021-06-26,2020-05-01,2021-06-26,0.0,0.0,,0.0,Renewed,13 mo 26 day,Yes,416.0,False,Wood,Lauren,P
+1903,"Roberts, Sandra Q.",2020-05-27,2021-05-26,2019-06-11,2020-05-26,2005.0,2005.0,0.0,0.0,Renewed,12 month,No,360.0,False,Roberts,Sandra,Q
+2106,"Lewis, Shirley R.",2020-05-27,2021-05-26,2019-06-01,2020-05-26,2085.0,2120.0,1.68,35.0,Renewed,12 month,No,360.0,False,Lewis,Shirley,R
+2205,"Moore, Charles S.",2020-05-27,2021-05-26,2019-05-11,2020-05-26,1745.0,1780.0,2.01,35.0,Renewed,12 month,No,360.0,False,Moore,Charles,S
+2403,"Nelson, Diane T.",2020-05-27,2021-05-26,2019-03-01,2020-05-26,1995.0,2080.0,4.26,85.0,Renewed,12 month,No,360.0,False,Nelson,Diane,T
+1806,"Sanchez, Kyle U.",2020-06-01,2021-05-26,2020-05-31,2021-05-26,1500.0,0.0,-100.0,-1500.0,Renewed,11 mo 26 day,Yes,356.0,False,Sanchez,Kyle,U
+2401,"Williams, Daniel V.",2020-06-27,2021-06-26,2019-06-17,2020-06-26,1385.0,1395.0,0.72,10.0,Renewed,12 month,No,360.0,False,Williams,Daniel,V
+1706,"Kelly, Rachel W.",2020-07-27,2021-07-26,2018-08-01,2020-07-26,2120.0,2130.0,0.47,10.0,Renewed,12 month,No,360.0,False,Kelly,Rachel,W
+1801,"Scott, Nicole Y.",2020-07-27,2021-07-26,,,,1360.0,,,Did Not Renew,12 month,No,360.0,False,Scott,Nicole,Y
+1901,"Martinez, Brian A.",2020-07-27,2021-07-26,,,,1290.0,,,Did Not Renew,12 month,No,360.0,False,Martinez,Brian,A
+2101,"Morris, Judith B.",2020-07-27,2021-07-26,2019-08-01,2020-07-26,1345.0,1350.0,0.37,5.0,Renewed,12 month,No,360.0,False,Morris,Judith,B
+2506,"Peterson, Ronald C.",2020-07-27,2021-07-26,2019-08-01,2020-07-26,2145.0,2150.0,0.23,5.0,Renewed,12 month,No,360.0,False,Peterson,Ronald,C
+2405,"Miller, Pamela D.",2020-08-01,2021-07-31,2019-08-23,2020-07-31,1745.0,1745.0,0.0,0.0,Renewed,12 month,No,360.0,False,Miller,Pamela,D
+1605,"Ward, Douglas E.",2020-08-03,2021-08-26,2020-08-03,2021-07-26,1630.0,0.0,-100.0,-1630.0,Renewed,12 mo 24 day,Yes,384.0,False,Ward,Douglas,E
+1703,"Harris, Melissa F.",2020-08-03,2026-08-26,2020-08-03,2021-07-26,0.0,2200.0,,2200.0,Renewed,72 mo 24 day,Yes,2184.0,False,Harris,Melissa,F
+1402,"Morgan, Joseph G.",2020-08-27,2021-08-26,2019-08-16,2020-08-26,1775.0,1800.0,1.41,25.0,Renewed,12 month,No,360.0,False,Morgan,Joseph,G
+1406,"Mitchell, Kevin H.",2020-08-27,2021-08-26,2019-08-27,2020-08-26,2295.0,2300.0,0.22,5.0,Renewed,12 month,No,360.0,False,Mitchell,Kevin,H
+1804,"Ramos, Mark J.",2020-08-27,2021-08-26,2019-08-09,2020-08-26,1745.0,1750.0,0.29,5.0,Renewed,12 month,No,360.0,False,Ramos,Mark,J
+2405,"Smith, Matthew K.",2020-09-03,2022-05-05,2020-01-10,2021-12-26,0.0,1765.0,,1765.0,Renewed,20 mo 3 day,Yes,603.0,False,Smith,Matthew,K
+1807,"Taylor, Steven L.",2020-10-01,,2020-10-01,2021-04-26,0.0,0.0,,0.0,Renewed,Month To Month,Yes,,True,Taylor,Steven,L
+1902,"Stewart, Jacob M.",2020-10-01,2021-10-10,2019-11-01,2020-10-26,0.0,1455.0,,1455.0,Renewed,12 mo 10 day,Yes,370.0,False,Stewart,Jacob,M
+2106,"Rogers, Aaron N.",2020-10-26,2023-10-26,2020-10-26,2021-10-26,0.0,0.0,,0.0,Renewed,36 mo 1 day,Yes,1081.0,False,Rogers,Aaron,N
+1404,"Wilson, Donna P.",2020-10-27,2022-10-26,2017-11-15,2020-10-26,0.0,2275.35,,2275.35,Renewed,24 month,No,720.0,False,Wilson,Donna,P
+2501,"Wright, Tyler N.",2020-11-27,2021-05-26,2020-04-27,2020-11-26,1445.0,1450.0,0.35,5.0,Renewed,6 month,No,180.0,False,Wright,Tyler,N
+2104,"Gomez, Lisa Q.",2020-12-27,2021-12-26,2019-12-27,2020-12-26,1790.0,1795.0,0.28,5.0,Renewed,12 month,No,360.0,False,Gomez,Lisa,Q
+2207,"Salinas Cortes, Katherine R.",2020-12-27,2021-12-26,2019-10-03,2020-12-26,1205.0,1300.0,7.88,95.0,Renewed,12 month,No,360.0,False,Salinas Cortes,Katherine,R
+2406,"Cook, Elizabeth S.",2020-12-27,2021-12-26,,,,2120.0,,,Did Not Renew,12 month,No,360.0,False,Cook,Elizabeth,S
+1403,"Hughes, Emily F.",2021-01-27,2022-01-26,2020-03-16,2021-01-26,2220.0,2235.0,0.68,15.0,Renewed,12 month,No,360.0,False,Hughes,Emily,F
+1504,"Gray, Emma T.",2021-01-27,2022-01-26,,,,1810.0,,,Did Not Renew,12 month,No,360.0,False,Gray,Emma,T
+2402,"Rodriguez, Nancy U.",2021-01-27,2022-01-26,,,,1475.0,,,Did Not Renew,12 month,No,360.0,False,Rodriguez,Nancy,U
+1706,"Brooks, George V.",2021-02-01,2021-07-26,2020-08-01,2021-07-26,1880.0,0.0,-100.0,-1880.0,Renewed,5 mo 26 day,Yes,176.0,False,Brooks,George,V
+1707,"Reed, Maria A.",2021-02-01,2022-01-26,2021-02-01,2022-01-26,1995.0,0.0,-100.0,-1995.0,Renewed,11 mo 26 day,Yes,356.0,False,Reed,Maria,A
+2303,"Young, James W.",2021-02-27,2022-02-26,,,,1850.0,,,Did Not Renew,12 month,No,360.0,False,Young,James,W
+1405,"Howard, Betty Y.",2021-03-27,2022-03-26,2020-04-01,2021-03-26,2170.0,2175.0,0.23,5.0,Renewed,12 month,No,360.0,False,Howard,Betty,Y
+1505,"Ortiz, Jack A.",2021-03-27,2022-03-26,2020-04-01,2021-03-26,1670.0,1670.0,0.0,0.0,Renewed,12 month,No,360.0,False,Ortiz,Jack,A
+1601,"Hall, Nathan B.",2021-03-27,2022-03-26,,,,1295.0,,,Did Not Renew,12 month,No,360.0,False,Hall,Nathan,B
+2105,"Cruz, Christopher C.",2021-03-27,2022-03-26,2020-03-07,2021-03-26,1650.0,1700.0,3.03,50.0,Renewed,12 month,No,360.0,False,Cruz,Christopher,C
+2504,"Cooper, Jason D.",2021-03-27,2022-03-26,,,,1770.0,,,Did Not Renew,12 month,No,360.0,False,Cooper,Jason,D
+1604,"White, Deborah E.",2021-04-27,2022-04-26,,,,1600.0,,,Did Not Renew,12 month,No,360.0,False,White,Deborah,E
+1906,"Adams, Joshua F.",2021-04-27,2022-04-26,2020-05-01,2021-04-26,1870.0,1895.0,1.34,25.0,Renewed,12 month,No,360.0,False,Adams,Joshua,F
+2005,"Johnson, Timothy G.",2021-04-27,2022-04-26,,,,1695.0,,,Did Not Renew,12 month,No,360.0,False,Johnson,Timothy,G
+2103,"Carter, Frank H.",2021-04-27,2022-04-26,2020-05-01,2021-04-26,1820.0,1845.0,1.37,25.0,Renewed,12 month,No,360.0,False,Carter,Frank,H
+2306,"Green, Amanda M.",2021-04-27,2022-04-26,2020-04-27,2021-04-26,1925.0,1950.0,1.3,25.0,Renewed,12 month,No,360.0,False,Green,Amanda,M
+2505,"Collins, Gregory J.",2021-04-27,2022-04-26,2020-04-09,2021-04-26,1700.0,1800.0,5.88,100.0,Renewed,12 month,No,360.0,False,Collins,Gregory,J
+2006,"Thompson, Benjamin K.",2021-05-01,2024-02-26,2021-05-01,2022-04-26,1950.0,0.0,-100.0,-1950.0,Renewed,33 mo 26 day,Yes,1016.0,False,Thompson,Benjamin,K
+1705,"Richardson, Donald L.",2021-05-27,2022-05-26,2020-06-27,2021-05-26,1630.0,1650.0,1.23,20.0,Renewed,12 month,No,360.0,False,Richardson,Donald,L
+1903,"Roberts, Sandra Q.",2021-05-27,2022-05-26,2020-05-27,2021-05-26,2005.0,2010.0,0.25,5.0,Renewed,12 month,No,360.0,False,Roberts,Sandra,Q
+2002,"Walker, Cynthia M.",2021-05-27,2022-05-26,2020-06-01,2021-05-26,1500.0,1505.0,0.33,5.0,Renewed,12 month,No,360.0,False,Walker,Cynthia,M
+2301,"Turner, Richard N.",2021-05-27,2022-05-26,,,,1315.0,,,Did Not Renew,12 month,No,360.0,False,Turner,Richard,N
+2404,"Diaz, Michael P.",2021-05-27,2022-05-26,2020-05-15,2021-05-26,1670.0,1680.0,0.6,10.0,Renewed,12 month,No,360.0,False,Diaz,Michael,P
+2501,"Wright, Tyler N.",2021-05-27,2022-05-26,2020-11-27,2021-05-26,0.0,1455.0,,1455.0,Renewed,12 month,No,360.0,False,Wright,Tyler,N
+1502,"Jackson, Jessica Q.",2021-06-27,2022-07-26,2020-06-27,2021-06-26,1400.0,1405.0,0.36,5.0,Renewed,13 month,No,390.0,False,Jackson,Jessica,Q
+2001,"Gonzalez, Amy R.",2021-06-27,2022-06-26,2020-06-20,2021-06-26,1280.0,1290.0,0.78,10.0,Renewed,12 month,No,360.0,False,Gonzalez,Amy,R
+2304,"Edwards, Heather S.",2021-06-27,2022-06-26,2021-01-12,2021-06-26,1660.0,1675.0,0.9,15.0,Renewed,12 month,No,360.0,False,Edwards,Heather,S
+2507,"Mendoza, Margaret T.",2021-06-27,2022-06-26,,,,1480.0,,,Did Not Renew,12 month,No,360.0,False,Mendoza,Margaret,T
+1701,"Cox, Larry U.",2021-07-01,2022-06-26,2020-06-20,2021-06-26,1260.0,1270.0,0.79,10.0,Renewed,11 mo 26 day,No,356.0,False,Cox,Larry,U
+2307,"Jones, Justin V.",2021-07-01,2022-06-30,2021-01-01,2021-06-26,1450.0,1455.0,0.34,5.0,Renewed,12 month,No,360.0,False,Jones,Justin,V
+1803,"Morris, Judith B.",2021-07-01,2023-03-31,2021-07-01,2022-08-26,1830.0,0.0,-100.0,-1830.0,Renewed,21 month,Yes,630.0,False,Morris,Judith,B
+2201,"Robinson, Brenda W.",2021-07-13,2022-04-26,2021-08-01,2022-04-26,1330.0,0.0,-100.0,-1330.0,Renewed,9 mo 14 day,Yes,284.0,False,Robinson,Brenda,W
+1501,"Martin, Megan Y.",2021-07-27,2022-07-26,2020-07-06,2021-07-26,1250.0,1275.0,2.0,25.0,Renewed,12 month,No,360.0,False,Martin,Megan,Y
+1607,"Parker, Joyce A.",2021-07-27,2022-07-26,2020-07-19,2021-07-26,1480.0,1485.0,0.34,5.0,Renewed,12 month,No,360.0,False,Parker,Joyce,A
+2506,"Peterson, Ronald C.",2021-07-27,2022-07-26,2020-07-27,2021-07-26,2150.0,2155.0,0.23,5.0,Renewed,12 month,No,360.0,False,Peterson,Ronald,C
+2204,"Allen, Joan B.",2021-08-01,2022-01-26,2020-08-01,2021-07-26,1660.0,1695.0,2.11,35.0,Renewed,5 mo 26 day,No,176.0,False,Allen,Joan,B
+1406,"Mitchell, Kevin H.",2021-08-27,2022-08-26,2020-08-27,2021-08-26,0.0,2305.0,,2305.0,Renewed,12 month,No,360.0,False,Mitchell,Kevin,H
+1605,"Ward, Douglas E.",2021-08-27,2022-08-26,,,,1675.0,,,Did Not Renew,12 month,No,360.0,False,Ward,Douglas,E
+1703,"Harris, Melissa F.",2021-08-27,2023-08-26,2020-08-03,2021-08-26,1825.0,1830.0,0.27,5.0,Renewed,24 month,No,720.0,False,Harris,Melissa,F
+1801,"Thomas, Nicholas C.",2021-08-27,2022-08-26,2020-08-03,2021-08-26,1270.0,1300.0,2.36,30.0,Renewed,12 month,No,360.0,False,Thomas,Nicholas,C
+1804,"Ramos, Mark J.",2021-08-27,2022-08-26,2020-08-27,2021-08-26,0.0,1775.0,,1775.0,Renewed,12 month,No,360.0,False,Ramos,Mark,J
+2206,"Torres, Laura D.",2021-08-27,2022-08-26,2020-08-15,2021-08-26,1915.0,1925.0,0.52,10.0,Renewed,12 month,No,360.0,False,Torres,Laura,D
+2202,"Kim, Robert E.",2021-09-01,2022-01-26,2021-06-01,2021-08-26,1470.0,1470.0,0.0,0.0,Renewed,4 mo 26 day,No,146.0,False,Kim,Robert,E
+1402,"Smith, Matthew K.",2021-09-01,2023-08-31,2021-02-01,2022-03-26,0.0,0.0,,0.0,Renewed,24 month,Yes,720.0,False,Smith,Matthew,K
+1807,"Ruiz, Kathleen F.",2021-09-07,2022-12-26,2021-09-01,2022-06-30,1267.0,1270.0,0.24,3.0,Renewed,15 mo 20 day,Yes,470.0,False,Ruiz,Kathleen,F
+1407,"Salinas Cortes, Katherine R.",2021-09-15,2026-09-30,2020-12-27,2021-12-26,1300.0,2250.0,73.08,950.0,Renewed,60 mo 16 day,Yes,1816.0,False,Salinas Cortes,Katherine,R
+1114,"Bennett, Michelle G.",2021-09-24,2022-07-31,2021-08-15,2022-08-26,1267.0,1267.0,0.0,0.0,Renewed,10 mo 8 day,Yes,308.0,False,Bennett,Michelle,G
+1504,"King, Ryan H.",2021-09-27,2022-03-26,2021-03-19,2021-09-26,1815.0,1820.0,0.28,5.0,Renewed,6 month,No,180.0,False,King,Ryan,H
+2405,"Smith, Matthew K.",2021-10-01,2022-09-30,2020-09-03,2021-09-26,1745.0,1765.0,1.15,20.0,Renewed,12 month,No,360.0,False,Smith,Matthew,K
+1902,"Stewart, Jacob M.",2021-10-27,2022-10-26,2020-10-01,2021-10-26,1450.0,1455.0,0.34,5.0,Renewed,12 month,No,360.0,False,Stewart,Jacob,M
+2106,"Rogers, Aaron N.",2021-10-27,2022-10-26,2020-10-26,2021-10-26,2000.0,2010.0,0.5,10.0,Renewed,12 month,No,360.0,False,Rogers,Aaron,N
+2503,"Watson, Edward J.",2021-10-27,2022-10-26,,,,1925.0,,,Did Not Renew,12 month,No,360.0,False,Watson,Edward,J
+2203,"Hernandez, Victoria J.",2021-11-01,2025-10-26,2021-03-27,2022-03-26,0.0,0.0,,0.0,Renewed,47 mo 26 day,Yes,1436.0,False,Hernandez,Victoria,J
+2504,"Rivera, John K.",2021-11-01,2022-09-30,2021-10-01,2022-09-30,0.0,1915.0,,1915.0,Renewed,11 month,Yes,330.0,False,Rivera,John,K
+2503,"Chavez, Dorothy L.",2021-11-03,2022-10-31,2021-11-27,2022-11-26,1455.0,0.0,-100.0,-1455.0,Renewed,11 mo 29 day,Yes,359.0,False,Chavez,Dorothy,L
+2302,"Chavez, Dorothy L.",2021-11-27,2022-11-26,2020-11-08,2021-11-26,1450.0,1455.0,0.34,5.0,Renewed,12 month,No,360.0,False,Chavez,Dorothy,L
+1905,"Hill, Anthony M.",2022-01-01,2022-12-26,,,,1845.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Hill,Anthony,M
+2104,"Gomez, Lisa Q.",2022-01-01,2022-12-31,2020-12-27,2021-12-26,0.0,1825.0,,1825.0,Renewed,12 month,No,360.0,False,Gomez,Lisa,Q
+1403,"Hughes, Emily F.",2022-01-27,2023-01-26,2021-01-27,2022-01-26,0.0,2245.0,,2245.0,Renewed,12 month,No,360.0,False,Hughes,Emily,F
+1403,"Hughes, Emily F.",2022-01-27,,2021-01-27,2022-01-26,0.0,2245.0,,2245.0,Did Not Renew,Month To Month,No,,True,Hughes,Emily,F
+2406,"Bailey, Mary N.",2022-03-01,2022-08-26,2022-01-27,2022-02-26,2050.0,2060.0,0.49,10.0,Renewed,5 mo 26 day,No,176.0,False,Bailey,Mary,N
+1208,"Richardson, Donald L.",2022-03-10,2022-05-07,2022-02-01,2022-05-07,0.0,1650.0,,1650.0,Renewed,1 mo 28 day,Yes,58.0,False,Richardson,Donald,L
+1504,"King, Ryan H.",2022-03-27,2022-09-26,2021-09-27,2022-03-26,0.0,1830.0,,1830.0,Renewed,6 month,No,180.0,False,King,Ryan,H
+1405,"Howard, Betty Y.",2022-04-01,2023-03-26,2021-03-27,2022-03-26,0.0,2195.0,,2195.0,Renewed,11 mo 26 day,No,356.0,False,Howard,Betty,Y
+1505,"Ortiz, Jack A.",2022-04-01,2023-03-26,2021-03-27,2022-03-26,1670.0,1690.0,1.2,20.0,Renewed,11 mo 26 day,No,356.0,False,Ortiz,Jack,A
+2105,"Cruz, Christopher C.",2022-04-01,2023-03-26,2021-03-27,2022-03-26,0.0,1750.0,,1750.0,Renewed,11 mo 26 day,No,356.0,False,Cruz,Christopher,C
+1606,"Davis, Scott P.",2022-05-01,2022-05-26,2020-05-18,2022-04-26,1800.0,2000.0,11.11,200.0,Renewed,26 day,No,26.0,False,Davis,Scott,P
+1704,"James, Brandon Q.",2022-05-01,2023-04-26,2021-05-08,2022-04-26,1830.0,1850.0,1.09,20.0,Renewed,11 mo 26 day,No,356.0,False,James,Brandon,Q
+1906,"Adams, Joshua F.",2022-05-01,2022-10-26,2021-04-27,2022-04-26,0.0,1930.0,,1930.0,Renewed,5 mo 26 day,No,176.0,False,Adams,Joshua,F
+1907,"Flores, Kenneth L.",2022-05-01,2023-04-26,2021-04-27,2022-04-26,0.0,1355.0,,1355.0,Renewed,11 mo 26 day,No,356.0,False,Flores,Kenneth,L
+2007,"Johnson, Timothy G.",2022-05-01,2023-04-26,2021-05-01,2022-04-26,1260.0,1265.0,0.4,5.0,Renewed,11 mo 26 day,No,356.0,False,Johnson,Timothy,G
+2107,"Phillips, Andrew R.",2022-05-01,2023-04-26,2021-03-26,2022-04-26,1280.0,1285.0,0.39,5.0,Renewed,11 mo 26 day,No,356.0,False,Phillips,Andrew,R
+2402,"Lee, Zachary S.",2022-05-01,2023-04-26,2021-04-01,2022-04-26,1300.0,1305.0,0.38,5.0,Renewed,11 mo 26 day,No,356.0,False,Lee,Zachary,S
+2505,"Collins, Gregory J.",2022-05-01,2023-04-26,2021-04-27,2022-04-26,0.0,1835.0,,1835.0,Renewed,11 mo 26 day,No,356.0,False,Collins,Gregory,J
+1507,"Perez, Adam T.",2022-06-01,2023-05-26,2021-04-13,2022-05-26,1495.0,1500.0,0.33,5.0,Renewed,11 mo 26 day,No,356.0,False,Perez,Adam,T
+1603,"Garcia, Julie U.",2022-06-01,2023-05-26,,,,1910.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Garcia,Julie,U
+1604,"Baker, Carol V.",2022-06-01,2023-05-26,2021-05-15,2022-05-26,1830.0,1840.0,0.55,10.0,Renewed,11 mo 26 day,No,356.0,False,Baker,Carol,V
+1702,"Morales, Kelly W.",2022-06-01,2023-05-26,2021-05-22,2022-05-26,1260.0,1270.0,0.79,10.0,Renewed,11 mo 26 day,No,356.0,False,Morales,Kelly,W
+1903,"Roberts, Sandra Q.",2022-06-01,2023-05-26,2021-05-27,2022-05-26,0.0,2060.0,,2060.0,Renewed,11 mo 26 day,No,356.0,False,Roberts,Sandra,Q
+1904,"Murphy, Walter Y.",2022-06-01,2023-05-26,2021-11-22,2022-05-26,1860.0,1865.0,0.27,5.0,Renewed,11 mo 26 day,No,356.0,False,Murphy,Walter,Y
+2002,"Walker, Cynthia M.",2022-06-01,2023-05-26,2021-05-27,2022-05-26,0.0,1510.0,,1510.0,Renewed,11 mo 26 day,No,356.0,False,Walker,Cynthia,M
+2404,"Diaz, Michael P.",2022-06-01,2023-05-26,2021-05-27,2022-05-26,0.0,1750.0,,1750.0,Renewed,11 mo 26 day,No,356.0,False,Diaz,Michael,P
+1701,"Cox, Larry U.",2022-07-01,2023-07-26,2021-07-01,2022-06-26,1270.0,1285.0,1.18,15.0,Renewed,12 mo 26 day,No,386.0,False,Cox,Larry,U
+1805,"Nguyen, Sharon A.",2022-07-01,2023-06-26,2021-07-09,2022-06-26,1830.0,1860.0,1.64,30.0,Renewed,11 mo 26 day,No,356.0,False,Nguyen,Sharon,A
+1807,"Ruiz, Kathleen F.",2022-07-01,2022-12-26,2021-09-07,2022-06-30,1260.0,1270.0,0.79,10.0,Renewed,5 mo 26 day,No,176.0,False,Ruiz,Kathleen,F
+1901,"Reyes, Sarah B.",2022-07-01,2023-06-26,,,,1330.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Reyes,Sarah,B
+2001,"Gonzalez, Amy R.",2022-07-01,2023-06-26,,,,1320.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Gonzalez,Amy,R
+2006,"Thompson, Benjamin K.",2022-07-01,2023-06-26,2021-05-01,2022-06-26,1950.0,1975.0,1.28,25.0,Renewed,11 mo 26 day,No,356.0,False,Thompson,Benjamin,K
+2102,"Reed, Samuel C.",2022-07-01,2023-06-26,2021-06-28,2022-06-26,1280.0,1300.0,1.56,20.0,Renewed,11 mo 26 day,No,356.0,False,Reed,Samuel,C
+2304,"Edwards, Heather S.",2022-07-01,2023-06-26,,,,1735.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Edwards,Heather,S
+2401,"Williams, Daniel V.",2022-07-01,2023-06-26,2021-04-09,2022-06-26,1395.0,1400.0,0.36,5.0,Renewed,11 mo 26 day,No,356.0,False,Williams,Daniel,V
+2507,"Anderson, Stephanie D.",2022-07-01,2023-06-26,,,,1350.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Anderson,Stephanie,D
+1122,"Campbell, Susan E.",2022-07-01,2023-06-26,2021-11-05,2022-06-30,0.0,1310.0,,1310.0,Renewed,11 mo 26 day,No,356.0,False,Campbell,Susan,E
+2205,"Evans, Jonathan F.",2022-07-27,2023-07-31,2021-08-01,2022-07-26,1850.0,1850.0,0.0,0.0,Renewed,12 mo 5 day,No,365.0,False,Evans,Jonathan,F
+1506,"Clark, Angela G.",2022-08-01,2022-10-31,2021-07-03,2022-07-26,1950.0,2100.0,7.69,150.0,Renewed,3 month,No,90.0,False,Clark,Angela,G
+1601,"Hughes, Karen H.",2022-08-01,2023-07-26,2021-07-19,2022-07-26,1310.0,1338.0,2.14,28.0,Renewed,11 mo 26 day,No,356.0,False,Hughes,Karen,H
+2004,"Brown, Linda J.",2022-08-01,2023-07-26,2021-08-13,2022-07-29,0.0,1845.0,,1845.0,Renewed,11 mo 26 day,No,356.0,False,Brown,Linda,J
+2301,"Ramirez, Rebecca K.",2022-08-01,2023-07-26,,,,1380.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Ramirez,Rebecca,K
+2306,"Green, Amanda M.",2022-08-01,2022-08-26,2022-05-01,2022-07-26,1950.0,2100.0,7.69,150.0,Renewed,26 day,No,26.0,False,Green,Amanda,M
+2506,"Peterson, Ronald C.",2022-08-01,2023-07-26,,,,2165.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Peterson,Ronald,C
+2506,"Hernandez, William L.",2022-08-19,2026-08-26,2021-08-12,2022-08-26,1870.0,2445.0,30.75,575.0,Renewed,48 mo 8 day,Yes,1448.0,False,Hernandez,William,L
+2306,"Green, Amanda M.",2022-08-27,2022-09-26,2022-08-01,2022-08-26,2100.0,2100.0,0.0,0.0,Renewed,1 month,No,30.0,False,Green,Amanda,M
+1402,"Smith, Matthew K.",2022-09-01,2023-08-31,2021-09-01,2022-08-31,1875.0,1880.0,0.27,5.0,Renewed,12 month,No,360.0,False,Smith,Matthew,K
+1406,"Mitchell, Kevin H.",2022-09-01,2023-08-26,2021-08-27,2022-08-26,0.0,2305.0,,2305.0,Renewed,11 mo 26 day,No,356.0,False,Mitchell,Kevin,H
+1706,"Gutierrez, Anna M.",2022-09-01,2023-08-26,2021-09-01,2022-08-31,1950.0,2000.0,2.56,50.0,Renewed,11 mo 26 day,No,356.0,False,Gutierrez,Anna,M
+1801,"Thomas, Nicholas C.",2022-09-01,2023-08-26,,,,1350.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Thomas,Nicholas,C
+1804,"Ramos, Mark J.",2022-09-01,2023-08-26,2021-08-27,2022-08-26,0.0,1850.0,,1850.0,Renewed,11 mo 26 day,No,356.0,False,Ramos,Mark,J
+2005,"Flores, Christine N.",2022-09-01,2022-12-31,2021-06-14,,1900.0,1900.0,0.0,0.0,Renewed,4 month,No,120.0,False,Flores,Christine,N
+2206,"Torres, Laura D.",2022-09-01,2023-08-26,2021-08-27,2022-08-26,0.0,2000.0,,2000.0,Renewed,11 mo 26 day,No,356.0,False,Torres,Laura,D
+2407,"Green, Janet P.",2022-09-01,2023-08-26,,,,1350.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Green,Janet,P
+1101,"Wright, Jennifer Q.",2022-09-01,2023-08-26,2021-11-01,2022-08-26,0.0,1520.0,,1520.0,Renewed,11 mo 26 day,No,356.0,False,Wright,Jennifer,Q
+1202,"Wood, Alexander R.",2022-09-01,2023-08-26,2022-01-27,2022-08-26,1260.0,1480.0,17.46,220.0,Renewed,11 mo 26 day,No,356.0,False,Wood,Alexander,R
+2406,"Roberts, Peter S.",2022-09-01,2024-01-27,2022-02-01,2023-01-26,0.0,0.0,,0.0,Renewed,16 mo 27 day,Yes,507.0,False,Roberts,Peter,S
+1503,"Lewis, Kimberly T.",2022-09-27,2023-09-26,2021-10-08,2022-09-26,1815.0,1875.0,3.31,60.0,Renewed,12 month,No,360.0,False,Lewis,Kimberly,T
+1504,"King, Ryan H.",2022-09-27,2023-03-26,2022-03-27,2022-09-26,0.0,1850.0,,1850.0,Renewed,6 month,No,180.0,False,King,Ryan,H
+1806,"Moore, Samantha U.",2022-09-27,2023-09-26,2021-09-10,2022-09-26,1965.0,2065.0,5.09,100.0,Renewed,12 month,No,360.0,False,Moore,Samantha,U
+2305,"Nelson, Jose V.",2022-09-27,2023-05-14,2021-08-20,2022-09-26,1890.0,1890.0,0.0,0.0,Renewed,7 mo 18 day,No,228.0,False,Nelson,Jose,V
+2306,"Green, Amanda M.",2022-09-27,2022-10-26,2022-08-27,2022-09-26,2100.0,2100.0,0.0,0.0,Renewed,1 month,No,30.0,False,Green,Amanda,M
+1102,"Sanchez, Dennis W.",2022-09-27,2023-09-26,2021-11-01,2022-09-26,1444.0,1505.0,4.22,61.0,Renewed,12 month,No,360.0,False,Sanchez,Dennis,W
+1407,"Salinas Cortes, Katherine R.",2022-10-01,2023-09-30,2021-09-15,2022-09-30,1625.0,1655.0,1.85,30.0,Renewed,12 month,No,360.0,False,Salinas Cortes,Katherine,R
+1407,"Salinas Cortes, Katherine R.",2022-10-01,,2021-09-15,2022-09-30,1625.0,1655.0,1.85,30.0,Did Not Renew,Month To Month,No,,True,Salinas Cortes,Katherine,R
+1803,"Morris, Judith B.",2022-10-01,2023-03-31,2021-10-14,,1830.0,1898.0,3.72,68.0,Renewed,6 month,No,180.0,False,Morris,Judith,B
+1223,"Williams, Debra Y.",2022-10-01,2023-03-31,2022-03-14,2022-09-30,1250.0,1350.0,8.0,100.0,Renewed,6 month,No,180.0,False,Williams,Debra,Y
+1109,"Kelly, Gary A.",2022-10-15,2023-10-14,2021-11-05,2022-10-14,1970.0,1975.0,0.25,5.0,Renewed,12 month,No,360.0,False,Kelly,Gary,A
+1404,"Wilson, Donna P.",2022-10-27,2023-10-26,2020-10-27,2022-10-26,2275.35,2280.0,0.2,4.65,Renewed,12 month,No,360.0,False,Wilson,Donna,P
+1902,"Scott, David B.",2022-10-27,2023-10-26,2021-10-12,2022-10-26,0.0,1330.0,,1330.0,Renewed,12 month,No,360.0,False,Scott,David,B
+2103,"Martinez, Paul C.",2022-10-27,2023-10-26,2021-11-05,2022-10-26,1878.0,2078.0,10.65,200.0,Renewed,12 month,No,360.0,False,Martinez,Paul,C
+2106,"Rogers, Aaron N.",2022-10-27,2023-10-26,2021-10-27,2022-10-26,0.0,2215.0,,2215.0,Renewed,12 month,No,360.0,False,Rogers,Aaron,N
+2203,"Hernandez, Victoria J.",2022-10-27,2023-10-26,2021-11-01,2022-10-26,1878.0,2078.0,10.65,200.0,Renewed,12 month,No,360.0,False,Hernandez,Victoria,J
+2306,"Green, Amanda M.",2022-10-27,2023-07-26,2022-09-27,2022-10-26,2100.0,2100.0,0.0,0.0,Renewed,9 month,No,270.0,False,Green,Amanda,M
+1107,"Morris, Jeffrey D.",2022-10-29,2023-10-28,2021-11-01,2022-10-28,0.0,1475.0,,1475.0,Renewed,12 month,No,360.0,False,Morris,Jeffrey,D
+1124,"Cabral Nunez, Stephen E.",2022-10-29,2023-10-28,2021-11-02,2022-10-28,1495.0,1525.0,2.01,30.0,Renewed,12 month,No,360.0,False,Cabral Nunez,Stephen,E
+1206,"Miller, Eric F.",2022-10-31,2023-10-30,2022-01-22,2022-10-30,1483.0,1545.0,4.18,62.0,Renewed,12 month,No,360.0,False,Miller,Eric,F
+1506,"Clark, Angela G.",2022-11-01,2023-10-31,2022-08-01,2022-10-31,2100.0,2100.0,0.0,0.0,Did Not Renew,12 month,No,360.0,False,Clark,Angela,G
+1506,"Clark, Angela G.",2022-11-01,,2022-08-01,2022-10-31,2100.0,2100.0,0.0,0.0,Month To Month,Month To Month,No,,True,Clark,Angela,G
+2503,"Chavez, Dorothy L.",2022-11-01,2023-10-31,,,,2100.0,,,Did Not Renew,12 month,No,360.0,False,Chavez,Dorothy,L
+1506,"Clark, Angela G.",2022-12-01,2023-05-31,2022-11-01,,2100.0,2175.0,3.57,75.0,Renewed,6 month,No,180.0,False,Clark,Angela,G
+1106,"Ward, Carolyn G.",2022-12-01,2023-11-30,2021-12-04,2022-11-30,1435.0,1535.0,6.97,100.0,Renewed,12 month,No,360.0,False,Ward,Carolyn,G
+2005,"Flores, Christine N.",2023-01-01,2023-04-26,2022-09-01,2022-12-31,1900.0,2050.0,7.89,150.0,Renewed,3 mo 26 day,No,116.0,False,Flores,Christine,N
+1905,"Harris, Jerry H.",2023-01-27,2024-01-26,2022-01-07,2023-01-26,1860.0,1925.0,3.49,65.0,Renewed,12 month,No,360.0,False,Harris,Jerry,H
+2204,"Morgan, Patricia J.",2023-01-27,2024-01-26,2022-02-04,2023-01-26,1880.0,1955.0,3.99,75.0,Renewed,12 month,No,360.0,False,Morgan,Patricia,J
+1203,"Mitchell, Barbara K.",2023-01-27,2024-01-26,2021-09-15,2023-01-26,0.0,1580.0,,1580.0,Renewed,12 month,No,360.0,False,Mitchell,Barbara,K
+1204,"Ramos, Maria L.",2023-01-27,2024-01-26,2022-02-01,2023-01-26,1475.0,1580.0,7.12,105.0,Renewed,12 month,No,360.0,False,Ramos,Maria,L
+2406,"Roberts, Peter S.",2023-01-28,2024-01-27,2022-09-01,2023-01-27,2398.0,2398.0,0.0,0.0,Renewed,12 month,No,360.0,False,Roberts,Peter,S
+1707,"Smith, Ashley M.",2023-02-02,2024-04-26,2022-08-02,2023-07-26,0.0,0.0,,0.0,Renewed,14 mo 25 day,Yes,445.0,False,Smith,Ashley,M
+2302,"Taylor, Raymond N.",2023-02-27,2024-02-26,,,,1500.0,,,Did Not Renew,12 month,No,360.0,False,Taylor,Raymond,N
+1120,"Stewart, Christina P.",2023-02-27,2024-02-26,2022-03-01,2023-02-26,1250.0,1630.0,30.4,380.0,Renewed,12 month,No,360.0,False,Stewart,Christina,P
+1222,"Rogers, Evelyn Q.",2023-02-27,2024-02-26,2022-02-25,2023-02-26,1310.0,1690.0,29.01,380.0,Renewed,12 month,No,360.0,False,Rogers,Evelyn,Q
+1405,"Howard, Betty Y.",2023-03-27,2024-03-26,,,,2600.0,,,Did Not Renew,12 month,No,360.0,False,Howard,Betty,Y
+1505,"Ortiz, Jack A.",2023-03-27,2025-03-26,2022-04-01,2023-03-26,1690.0,1932.0,14.32,242.0,Renewed,24 month,No,720.0,False,Ortiz,Jack,A
+1802,"Wilson, Emily R.",2023-03-27,2024-03-26,2022-03-30,2023-03-26,1290.0,1630.0,26.36,340.0,Renewed,12 month,No,360.0,False,Wilson,Emily,R
+2104,"Gomez, Helen S.",2023-03-27,2024-03-26,2022-04-07,2023-03-26,1880.0,2055.0,9.31,175.0,Renewed,12 month,No,360.0,False,Gomez,Helen,S
+2303,"Lopez, Henry T.",2023-03-27,2024-03-26,,,,2380.0,,,Did Not Renew,12 month,No,360.0,False,Lopez,Henry,T
+1117,"Cook, Victoria U.",2023-03-27,2023-04-26,2022-03-18,2023-03-26,1250.0,1630.0,30.4,380.0,Renewed,1 month,No,30.0,False,Cook,Victoria,U
+1205,"Gray, Thomas V.",2023-03-27,2024-03-26,2022-04-09,2023-03-26,1475.0,1625.0,10.17,150.0,Renewed,12 month,No,360.0,False,Gray,Thomas,V
+1224,"Rodriguez, Kenneth W.",2023-03-27,2024-03-26,,,,1800.0,,,Did Not Renew,12 month,No,360.0,False,Rodriguez,Kenneth,W
+1210,"Brooks, Amanda Y.",2023-04-01,2024-03-31,,,,1955.0,,,Did Not Renew,12 month,No,360.0,False,Brooks,Amanda,Y
+1215,"Young, Tyler A.",2023-04-01,2024-03-31,2022-03-31,2023-03-31,1295.0,1600.0,23.55,305.0,Renewed,12 month,No,360.0,False,Young,Tyler,A
+1907,"Flores, Kenneth L.",2023-04-27,2025-04-26,2022-05-01,2023-04-26,1355.0,1492.0,10.11,137.0,Renewed,24 month,No,720.0,False,Flores,Kenneth,L
+2005,"Flores, Christine N.",2023-04-27,2023-08-31,2023-01-01,2023-04-26,2050.0,2200.0,7.32,150.0,Renewed,4 mo 5 day,No,125.0,False,Flores,Christine,N
+2007,"Johnson, Timothy G.",2023-04-27,2024-04-26,2022-05-01,2023-04-26,1265.0,1447.0,14.39,182.0,Renewed,12 month,No,360.0,False,Johnson,Timothy,G
+2402,"Lee, Zachary S.",2023-04-27,2024-04-26,,,,1680.0,,,Did Not Renew,12 month,No,360.0,False,Lee,Zachary,S
+2505,"Collins, Gregory J.",2023-04-27,2024-04-26,2022-05-01,2023-04-26,1835.0,2085.0,13.62,250.0,Renewed,12 month,No,360.0,False,Collins,Gregory,J
+1114,"Howard, Lauren B.",2023-04-27,2024-04-26,2022-04-30,2023-04-26,1325.0,1630.0,23.02,305.0,Renewed,12 month,No,360.0,False,Howard,Lauren,B
+1118,"Ortiz, Sandra C.",2023-04-27,2024-04-26,2022-05-01,2023-04-26,1250.0,1630.0,30.4,380.0,Renewed,12 month,No,360.0,False,Ortiz,Sandra,C
+1220,"Hall, Shirley D.",2023-04-30,2023-07-29,2022-04-30,2023-04-29,1250.0,1440.0,15.2,190.0,Renewed,3 month,No,90.0,False,Hall,Shirley,D
+2405,"Cruz, Charles E.",2023-05-10,2023-07-31,2022-05-10,2023-05-09,1920.0,1920.0,0.0,0.0,Renewed,2 mo 22 day,No,82.0,False,Cruz,Charles,E
+1604,"Baker, Carol V.",2023-05-27,2024-05-26,,,,2200.0,,,Did Not Renew,12 month,No,360.0,False,Baker,Carol,V
+1702,"Morales, Kelly W.",2023-05-27,2024-05-26,,,,1630.0,,,Did Not Renew,12 month,No,360.0,False,Morales,Kelly,W
+1705,"Cooper, Diane F.",2023-05-27,2024-05-26,2022-06-06,2023-05-26,1860.0,2030.0,9.14,170.0,Renewed,12 month,No,360.0,False,Cooper,Diane,F
+1903,"Roberts, Sandra Q.",2023-05-27,2024-05-26,2022-06-01,2023-05-26,2060.0,2195.0,6.55,135.0,Renewed,12 month,No,360.0,False,Roberts,Sandra,Q
+1904,"Murphy, Walter Y.",2023-05-27,2024-01-26,2022-06-01,2023-05-26,1865.0,2050.0,9.92,185.0,Renewed,8 month,No,240.0,False,Murphy,Walter,Y
+2002,"Walker, Cynthia M.",2023-05-27,2024-05-26,2022-06-01,2023-05-26,1510.0,1630.0,7.95,120.0,Renewed,12 month,No,360.0,False,Walker,Cynthia,M
+2404,"Diaz, Michael P.",2023-05-27,2024-05-26,2022-06-01,2023-05-26,1750.0,2000.0,14.29,250.0,Renewed,12 month,No,360.0,False,Diaz,Michael,P
+1208,"White, Kyle G.",2023-05-27,2023-11-26,2022-05-20,2023-05-26,0.0,1930.0,,1930.0,Renewed,6 month,No,180.0,False,White,Kyle,G
+1224,"Cuevas Bermudez, Daniel H.",2023-05-29,2025-05-28,2023-05-29,2024-05-28,0.0,0.0,,0.0,Renewed,24 month,Yes,720.0,False,Cuevas Bermudez,Daniel,H
+1115,"Johnson, Rachel J.",2023-06-16,2024-06-15,2022-06-16,2023-06-15,1295.0,1425.0,10.04,130.0,Renewed,12 month,No,360.0,False,Johnson,Rachel,J
+2307,"Carter, Nicole K.",2023-06-23,2024-06-22,2022-06-22,2023-06-22,1330.0,1495.0,12.41,165.0,Renewed,12 month,No,360.0,False,Carter,Nicole,K
+1606,"Collins, Brian L.",2023-06-27,2024-06-26,2022-07-01,2023-06-26,2005.0,2300.0,14.71,295.0,Renewed,12 month,No,360.0,False,Collins,Brian,L
+1805,"Nguyen, Sharon A.",2023-06-27,2024-01-26,2022-07-01,2023-06-26,1860.0,2100.0,12.9,240.0,Renewed,7 month,No,210.0,False,Nguyen,Sharon,A
+1901,"Thompson, Judith M.",2023-06-27,2024-06-26,2022-07-02,2023-06-26,1348.0,1570.0,16.47,222.0,Renewed,12 month,No,360.0,False,Thompson,Judith,M
+2006,"Thompson, Benjamin K.",2023-06-27,2024-06-26,2022-07-01,2023-06-26,1975.0,2300.0,16.46,325.0,Renewed,12 month,No,360.0,False,Thompson,Benjamin,K
+2102,"Reed, Samuel C.",2023-06-27,2024-06-26,,,,1660.0,,,Did Not Renew,12 month,No,360.0,False,Reed,Samuel,C
+2102,"Reed, Samuel C.",2023-06-27,,,,,1300.0,,,Did Not Renew,Month To Month,No,,True,Reed,Samuel,C
+2304,"Richardson, Ronald N.",2023-06-27,2024-06-26,,,,2230.0,,,Did Not Renew,12 month,No,360.0,False,Richardson,Ronald,N
+2401,"Williams, Daniel V.",2023-06-27,2024-06-26,2022-07-01,2023-06-26,1400.0,1470.0,5.0,70.0,Renewed,12 month,No,360.0,False,Williams,Daniel,V
+2401,"Williams, Daniel V.",2023-06-27,,2022-07-01,2023-06-26,1400.0,1400.0,0.0,0.0,Did Not Renew,Month To Month,No,,True,Williams,Daniel,V
+1103,"Walker, Pamela P.",2023-06-27,2024-06-26,2023-04-01,2023-06-26,1475.0,1695.0,14.92,220.0,Renewed,12 month,No,360.0,False,Walker,Pamela,P
+1122,"Campbell, Susan E.",2023-06-27,2024-06-26,,,,1690.0,,,Did Not Renew,12 month,No,360.0,False,Campbell,Susan,E
+1219,"Turner, Douglas Q.",2023-06-27,2023-08-26,2022-06-15,2023-06-26,1365.0,1425.0,4.4,60.0,Renewed,2 month,No,60.0,False,Turner,Douglas,Q
+2501,"Diaz, Melissa R.",2023-07-08,2024-07-07,,,,1695.0,,,Did Not Renew,12 month,No,360.0,False,Diaz,Melissa,R
+1601,"Hughes, Karen H.",2023-07-27,2024-07-26,,,,1420.0,,,Did Not Renew,12 month,No,360.0,False,Hughes,Karen,H
+1607,"Jackson, Joseph S.",2023-07-27,2024-07-26,2022-08-02,2023-07-26,1300.0,1445.0,11.15,145.0,Renewed,12 month,No,360.0,False,Jackson,Joseph,S
+1707,"Smith, Ashley M.",2023-07-27,2024-04-26,2023-02-02,2023-07-26,1530.0,1530.0,0.0,0.0,Renewed,9 month,No,270.0,False,Smith,Ashley,M
+2306,"Green, Amanda M.",2023-07-27,2023-10-31,2022-10-27,2023-07-26,2100.0,2100.0,0.0,0.0,Renewed,3 mo 5 day,No,95.0,False,Green,Amanda,M
+1201,"Gonzalez, Kevin T.",2023-07-27,2024-07-26,,,,1820.0,,,Did Not Renew,12 month,No,360.0,False,Gonzalez,Kevin,T
+1201,"Gonzalez, Kevin T.",2023-07-27,2024-07-26,2022-08-01,2023-07-26,1515.0,1820.0,20.13,305.0,Renewed,12 month,No,360.0,False,Gonzalez,Kevin,T
+1214,"Edwards, Mark U.",2023-07-27,2024-07-26,,,,1630.0,,,Did Not Renew,12 month,No,360.0,False,Edwards,Mark,U
+2205,"Evans, Jonathan F.",2023-08-01,2024-05-31,2022-07-27,2023-07-31,1850.0,2100.0,13.51,250.0,Renewed,10 month,No,300.0,False,Evans,Jonathan,F
+1801,"Mendoza, Matthew V.",2023-08-12,2024-08-11,2022-08-12,2023-08-11,1378.0,1420.0,3.05,42.0,Renewed,12 month,No,360.0,False,Mendoza,Matthew,V
+1406,"Mitchell, Kevin H.",2023-08-27,2024-08-26,2022-09-01,2023-08-26,2305.0,2555.0,10.85,250.0,Renewed,12 month,No,360.0,False,Mitchell,Kevin,H
+1703,"Harris, Melissa F.",2023-08-27,2025-08-26,2021-08-27,2023-08-26,0.0,2080.0,,2080.0,Renewed,24 month,No,720.0,False,Harris,Melissa,F
+1706,"Gutierrez, Anna M.",2023-08-27,2024-08-26,2022-09-01,2023-08-26,2000.0,2200.0,10.0,200.0,Renewed,12 month,No,360.0,False,Gutierrez,Anna,M
+1804,"Ramos, Mark J.",2023-08-27,2024-08-26,2022-09-01,2023-08-26,1850.0,2100.0,13.51,250.0,Renewed,12 month,No,360.0,False,Ramos,Mark,J
+1906,"Cox, Steven W.",2023-08-27,2024-08-26,2022-09-01,2023-08-26,2170.0,2200.0,1.38,30.0,Renewed,12 month,No,360.0,False,Cox,Steven,W
+2206,"Torres, Laura D.",2023-08-27,2024-08-26,2022-09-01,2023-08-26,2000.0,2200.0,10.0,200.0,Renewed,12 month,No,360.0,False,Torres,Laura,D
+2506,"Hernandez, William L.",2023-08-27,2024-08-26,2022-08-19,2023-08-26,2180.0,2430.0,11.47,250.0,Renewed,12 month,No,360.0,False,Hernandez,William,L
+1101,"Wright, Jennifer Q.",2023-08-27,2024-08-26,2022-09-01,2023-08-26,1520.0,1670.0,9.87,150.0,Renewed,12 month,No,360.0,False,Wright,Jennifer,Q
+1402,"Smith, Matthew K.",2023-09-01,2024-08-31,,,,2230.0,,,Did Not Renew,12 month,No,360.0,False,Smith,Matthew,K
+2005,"Flores, Christine N.",2023-09-01,2024-02-29,2023-04-27,2023-08-31,0.0,2200.0,,2200.0,Renewed,6 month,No,180.0,False,Flores,Christine,N
+2403,"Jones, Jacob Y.",2023-09-03,2024-09-02,2022-09-03,2023-09-02,1918.0,2168.0,13.03,250.0,Renewed,12 month,No,360.0,False,Jones,Jacob,Y
+2407,"Robinson, Aaron A.",2023-09-07,2024-09-06,2022-09-07,2023-09-06,1380.0,1540.0,11.59,160.0,Renewed,12 month,No,360.0,False,Robinson,Aaron,A
+1110,"Martin, Donna B.",2023-09-17,2024-09-16,2022-09-17,2023-09-16,1955.0,1955.0,0.0,0.0,Renewed,12 month,No,360.0,False,Martin,Donna,B
+1211,"Parker, Lisa C.",2023-09-17,2024-05-31,2022-09-17,2023-09-16,1930.0,1930.0,0.0,0.0,Renewed,8 mo 15 day,No,255.0,False,Parker,Lisa,C
+1213,"Allen, Katherine D.",2023-09-17,2024-09-16,2022-09-17,2023-09-16,1930.0,1930.0,0.0,0.0,Renewed,12 month,No,360.0,False,Allen,Katherine,D
+1216,"Thomas, Elizabeth E.",2023-09-17,2024-09-16,2022-09-17,2023-09-16,1380.0,1425.0,3.26,45.0,Renewed,12 month,No,360.0,False,Thomas,Elizabeth,E
+2103,"Rogers, Evelyn Q.",2023-09-23,2025-09-26,2023-02-27,2024-02-26,0.0,0.0,,0.0,Renewed,24 mo 4 day,Yes,724.0,False,Rogers,Evelyn,Q
+1503,"Lewis, Kimberly T.",2023-09-27,2024-09-26,2022-09-27,2023-09-26,0.0,2075.0,,2075.0,Renewed,12 month,No,360.0,False,Lewis,Kimberly,T
+1806,"Moore, Samantha U.",2023-09-27,2024-09-26,,,,2200.0,,,Did Not Renew,12 month,No,360.0,False,Moore,Samantha,U
+2202,"Torres, Emma F.",2023-09-27,2024-09-26,2022-10-01,2023-09-26,1385.0,1520.0,9.75,135.0,Renewed,12 month,No,360.0,False,Torres,Emma,F
+1209,"Kim, Nancy G.",2023-09-27,2024-09-26,2022-10-01,2023-09-26,0.0,1955.0,,1955.0,Renewed,12 month,No,360.0,False,Kim,Nancy,G
+1407,"Salinas Cortes, Katherine R.",2023-10-01,2024-09-30,2022-10-01,2023-09-30,1655.0,2120.0,28.1,465.0,Renewed,12 month,No,360.0,False,Salinas Cortes,Katherine,R
+1207,"Ruiz, George H.",2023-10-04,2024-10-03,2022-10-04,2023-10-03,1550.0,1750.0,12.9,200.0,Renewed,12 month,No,360.0,False,Ruiz,George,H
+2207,"Bennett, James J.",2023-10-07,2024-10-06,2022-10-07,2023-10-06,1460.0,1520.0,4.11,60.0,Renewed,12 month,No,360.0,False,Bennett,James,J
+1102,"Roberts, Peter S.",2023-10-07,2024-09-26,2023-01-28,2024-01-27,0.0,0.0,,0.0,Renewed,11 mo 20 day,Yes,350.0,False,Roberts,Peter,S
+2201,"King, Betty K.",2023-10-22,2024-10-21,2022-10-22,2023-10-21,1483.0,1500.0,1.15,17.0,Renewed,12 month,No,360.0,False,King,Betty,K
+1113,"Watson, Jack L.",2023-10-24,2024-10-23,2022-10-24,2023-10-23,1930.0,1930.0,0.0,0.0,Renewed,12 month,No,360.0,False,Watson,Jack,L
+1404,"Wilson, Donna P.",2023-10-27,2024-10-26,2022-10-27,2023-10-26,0.0,2480.0,,2480.0,Renewed,12 month,No,360.0,False,Wilson,Donna,P
+1404,"Wilson, Donna P.",2023-10-27,2025-10-26,2022-10-27,2023-10-26,0.0,2480.0,,2480.0,Did Not Renew,24 month,No,720.0,False,Wilson,Donna,P
+1902,"Scott, David B.",2023-10-27,2024-10-26,2022-10-27,2023-10-26,1260.0,1490.0,18.25,230.0,Renewed,12 month,No,360.0,False,Scott,David,B
+2203,"Hernandez, Victoria J.",2023-10-27,2024-10-26,2022-10-27,2023-10-26,0.0,2280.0,,2280.0,Did Not Renew,12 month,No,360.0,False,Hernandez,Victoria,J
+2203,"Hernandez, Victoria J.",2023-10-27,2025-10-26,2022-10-27,2023-10-26,0.0,2280.0,,2280.0,Renewed,24 month,No,720.0,False,Hernandez,Victoria,J
+2504,"Rivera, Nathan M.",2023-10-27,2024-10-26,2022-10-31,2023-10-26,2100.0,2275.0,8.33,175.0,Renewed,12 month,No,360.0,False,Rivera,Nathan,M
+1217,"Chavez, Christopher N.",2023-10-27,2024-01-26,2022-10-27,2023-10-26,0.0,1425.0,,1425.0,Renewed,3 month,No,90.0,False,Chavez,Christopher,N
+1217,"Chavez, Christopher N.",2023-10-27,2024-10-26,2022-10-27,2023-10-26,0.0,1425.0,,1425.0,Did Not Renew,12 month,No,360.0,False,Chavez,Christopher,N
+1217,"Chavez, Christopher N.",2023-10-27,2024-04-26,2023-10-27,2024-01-26,0.0,1425.0,,1425.0,Renewed,6 month,No,180.0,False,Chavez,Christopher,N
+1107,"Morris, Jeffrey D.",2023-10-29,2024-10-28,2022-10-29,2023-10-28,1475.0,1620.0,9.83,145.0,Renewed,12 month,No,360.0,False,Morris,Jeffrey,D
+1124,"Cabral Nunez, Stephen E.",2023-10-29,2025-10-28,2022-10-29,2023-10-28,0.0,1635.0,,1635.0,Renewed,24 month,No,720.0,False,Cabral Nunez,Stephen,E
+1206,"Miller, Eric F.",2023-10-31,2024-10-30,2022-10-31,2023-10-30,0.0,1695.0,,1695.0,Renewed,12 month,No,360.0,False,Miller,Eric,F
+2306,"Green, Amanda M.",2023-11-01,2024-10-31,2023-07-27,2023-10-31,2100.0,2280.0,8.57,180.0,Renewed,12 month,No,360.0,False,Green,Amanda,M
+1602,"Hill, Jason P.",2023-11-07,2024-11-06,2022-11-07,2023-11-06,1430.0,1450.0,1.4,20.0,Renewed,12 month,No,360.0,False,Hill,Jason,P
+2004,"Bailey, Deborah Q.",2023-11-08,2024-11-07,2023-05-08,2023-11-07,2075.0,2075.0,0.0,0.0,Renewed,12 month,No,360.0,False,Bailey,Deborah,Q
+1603,"Davis, Joshua R.",2023-11-14,2024-11-13,2023-05-13,2023-11-13,2200.0,2200.0,0.0,0.0,Renewed,12 month,No,360.0,False,Davis,Joshua,R
+2503,"Nguyen, Sharon A.",2023-11-28,2026-11-26,2023-06-27,2024-01-26,0.0,2400.0,,2400.0,Renewed,35 mo 30 day,Yes,1080.0,False,Nguyen,Sharon,A
+2107,"James, Timothy S.",2023-12-15,2024-06-14,2022-12-15,2023-12-14,1660.0,1660.0,0.0,0.0,Renewed,6 month,No,180.0,False,James,Timothy,S
+1807,"Phillips, Frank T.",2023-12-24,2024-12-23,2022-12-24,2023-12-23,1630.0,1490.0,-8.59,-140.0,Renewed,12 month,No,360.0,False,Phillips,Frank,T
+1210,"Lee, Gregory U.",2024-01-07,2025-01-06,2023-04-07,2024-01-06,1955.0,1955.0,0.0,0.0,Renewed,12 month,No,360.0,False,Lee,Gregory,U
+1210,"Lee, Gregory U.",2024-01-07,2024-07-06,2023-04-07,2024-01-06,1955.0,1955.0,0.0,0.0,Did Not Renew,6 month,No,180.0,False,Lee,Gregory,U
+1402,"Perez, Benjamin V.",2024-01-12,2025-03-26,2023-10-18,2024-10-26,0.0,0.0,,0.0,Renewed,14 mo 15 day,Yes,435.0,False,Perez,Benjamin,V
+1108,"Garcia, Donald W.",2024-01-15,2025-01-14,2023-01-15,2024-01-14,2003.0,2003.0,0.0,0.0,Renewed,12 month,No,360.0,False,Garcia,Donald,W
+1108,"Garcia, Donald W.",2024-01-15,2024-07-14,2023-01-15,2024-01-14,2003.0,2003.0,0.0,0.0,Did Not Renew,6 month,No,180.0,False,Garcia,Donald,W
+2204,"Morgan, Patricia J.",2024-01-27,2025-01-26,2023-01-27,2024-01-26,1880.0,2130.0,13.3,250.0,Did Not Renew,12 month,No,360.0,False,Morgan,Patricia,J
+2204,"Morgan, Patricia J.",2024-01-27,2024-07-26,2023-01-27,2024-01-26,1880.0,1955.0,3.99,75.0,Renewed,6 month,No,180.0,False,Morgan,Patricia,J
+1203,"Mitchell, Barbara K.",2024-01-27,2026-01-26,2023-01-27,2024-01-26,1475.0,1795.0,21.69,320.0,Renewed,24 month,No,720.0,False,Mitchell,Barbara,K
+1204,"Ramos, Maria L.",2024-01-27,2025-01-26,2022-11-01,2024-01-26,1475.0,1795.0,21.69,320.0,Did Not Renew,12 month,No,360.0,False,Ramos,Maria,L
+1204,"Ramos, Maria L.",2024-01-27,2024-07-26,2022-11-01,2024-01-26,1475.0,1795.0,21.69,320.0,Renewed,6 month,No,180.0,False,Ramos,Maria,L
+2106,"Howard, Lauren B.",2024-02-01,2025-01-26,2023-04-27,2024-04-26,0.0,0.0,,0.0,Renewed,11 mo 26 day,Yes,356.0,False,Howard,Lauren,B
+1501,"Baker, Cynthia Y.",2024-02-24,2025-02-23,2023-02-24,2024-02-23,1545.0,1545.0,0.0,0.0,Did Not Renew,12 month,No,360.0,False,Baker,Cynthia,Y
+1501,"Baker, Cynthia Y.",2024-02-24,2024-08-23,2023-02-24,2024-02-23,1545.0,1545.0,0.0,0.0,Renewed,6 month,No,180.0,False,Baker,Cynthia,Y
+1120,"Stewart, Christina P.",2024-02-27,2025-02-26,,,,1425.0,,,Did Not Renew,12 month,No,360.0,False,Stewart,Christina,P
+1120,"Stewart, Christina P.",2024-02-27,2024-08-26,,,,1425.0,,,Did Not Renew,6 month,No,180.0,False,Stewart,Christina,P
+2005,"Flores, Christine N.",2024-03-01,2025-02-28,2023-09-01,2024-02-29,2200.0,2200.0,0.0,0.0,Did Not Renew,12 month,No,360.0,False,Flores,Christine,N
+2005,"Flores, Christine N.",2024-03-01,2024-08-31,2023-09-01,2024-02-29,2200.0,2200.0,0.0,0.0,Renewed,6 month,No,180.0,False,Flores,Christine,N
+1403,"Morales, Richard A.",2024-03-08,2025-03-07,,,,2785.0,,,Did Not Renew,12 month,No,360.0,False,Morales,Richard,A
+1502,"Murphy, Michael B.",2024-03-27,2026-03-26,2023-04-01,2024-03-26,1605.0,1605.0,0.0,0.0,Renewed,24 month,No,720.0,False,Murphy,Michael,B
+1802,"Wilson, Emily R.",2024-03-27,2025-03-26,2023-03-27,2024-03-26,1290.0,1630.0,26.36,340.0,Renewed,12 month,No,360.0,False,Wilson,Emily,R
+2104,"Gomez, Helen S.",2024-03-27,,2023-03-27,2024-03-26,1880.0,2130.0,13.3,250.0,Month To Month,Month To Month,No,,True,Gomez,Helen,S
+1205,"Gray, Thomas V.",2024-03-27,2025-03-26,2023-03-27,2024-03-26,0.0,1710.0,,1710.0,Renewed,12 month,No,360.0,False,Gray,Thomas,V
+1205,"Gray, Thomas V.",2024-03-27,2026-03-26,2023-03-27,2024-03-26,0.0,1710.0,,1710.0,Did Not Renew,24 month,No,720.0,False,Gray,Thomas,V
+1215,"Young, Tyler A.",2024-04-01,2025-03-31,,,,1600.0,,,Did Not Renew,12 month,No,360.0,False,Young,Tyler,A
+1504,"Nguyen, Jessica C.",2024-04-02,2025-04-01,2023-04-02,2024-04-01,2175.0,2075.0,-4.6,-100.0,Renewed,12 month,No,360.0,False,Nguyen,Jessica,C
+1405,"Escobar Rios, Amy D.",2024-04-13,2025-03-01,2023-10-07,2024-09-30,0.0,0.0,,0.0,Renewed,10 mo 17 day,Yes,317.0,False,Escobar Rios,Amy,D
+1202,"Roberts, Peter S.",2024-04-16,2025-04-26,2023-10-07,2024-09-26,0.0,0.0,,0.0,Renewed,12 mo 11 day,Yes,371.0,False,Roberts,Peter,S
+1803,"Reed, Heather E.",2024-04-22,2025-04-21,,,,2200.0,,,Did Not Renew,12 month,No,360.0,False,Reed,Heather,E
+1112,"Anderson, Margaret F.",2024-04-24,2025-04-23,2023-03-24,2024-04-23,1930.0,1930.0,0.0,0.0,Renewed,12 month,No,360.0,False,Anderson,Margaret,F
+1806,"Diaz, Michael P.",2024-04-26,2025-04-11,2023-05-27,2024-05-26,0.0,0.0,,0.0,Renewed,11 mo 17 day,Yes,347.0,False,Diaz,Michael,P
+1707,"Smith, Ashley M.",2024-04-27,2025-04-26,,,,1530.0,,,Did Not Renew,12 month,No,360.0,False,Smith,Ashley,M
+2007,"Johnson, Timothy G.",2024-04-27,2025-04-26,2023-04-27,2024-04-26,0.0,1490.0,,1490.0,Renewed,12 month,No,360.0,False,Johnson,Timothy,G
+2505,"Collins, Gregory J.",2024-04-27,2025-04-26,2023-04-27,2024-04-26,0.0,2160.0,,2160.0,Renewed,12 month,No,360.0,False,Collins,Gregory,J
+1217,"Chavez, Christopher N.",2024-04-27,2024-10-26,2023-10-27,2024-04-26,0.0,1425.0,,1425.0,Renewed,6 month,No,180.0,False,Chavez,Christopher,N
+1218,"Campbell, Larry G.",2024-05-15,2026-05-26,2024-05-15,2025-05-26,1425.0,1425.0,0.0,0.0,Renewed,24 mo 12 day,Yes,732.0,False,Campbell,Larry,G
+1105,"Evans, Justin H.",2024-05-26,2025-05-25,2023-05-26,2024-05-25,1780.0,1795.0,0.84,15.0,Renewed,12 month,No,360.0,False,Evans,Justin,H
+1903,"Roberts, Sandra Q.",2024-05-27,2025-05-26,2023-05-27,2024-05-26,0.0,2200.0,,2200.0,Renewed,12 month,No,360.0,False,Roberts,Sandra,Q
+2002,"Walker, Cynthia M.",2024-05-27,2025-05-26,2023-05-27,2024-05-26,0.0,1630.0,,1630.0,Renewed,12 month,No,360.0,False,Walker,Cynthia,M
+2305,"Clark, Brenda J.",2024-05-27,2025-05-26,2023-06-01,2024-05-26,2130.0,2130.0,0.0,0.0,Renewed,12 month,No,360.0,False,Clark,Brenda,J
+1224,"Cuevas Bermudez, Daniel H.",2024-05-29,2025-05-28,2023-05-29,2024-05-28,1745.0,1745.0,0.0,0.0,Renewed,12 month,No,360.0,False,Cuevas Bermudez,Daniel,H
+1118,"Hughes, Megan K.",2024-06-01,2025-05-26,2024-05-09,2024-05-10,1425.0,0.0,-100.0,-1425.0,Renewed,11 mo 26 day,Yes,356.0,False,Hughes,Megan,K
+2003,"Brown, Joyce L.",2024-06-03,2025-06-02,2023-06-03,2024-06-02,2300.0,2200.0,-4.35,-100.0,Renewed,12 month,No,360.0,False,Brown,Joyce,L
+1604,"Ramirez, Joan M.",2024-06-07,2025-06-06,2023-06-07,2024-06-06,2100.0,2100.0,0.0,0.0,Renewed,12 month,No,360.0,False,Ramirez,Joan,M
+2107,"James, Timothy S.",2024-06-15,2025-06-14,,,,1660.0,,,Did Not Renew,12 month,No,360.0,False,James,Timothy,S
+1115,"Johnson, Rachel J.",2024-06-16,2025-06-15,2023-06-16,2024-06-15,0.0,1425.0,,1425.0,Renewed,12 month,No,360.0,False,Johnson,Rachel,J
+2303,"Carter, Nicole K.",2024-06-17,2024-08-18,2023-06-23,2024-06-22,0.0,0.0,,0.0,Renewed,2 mo 2 day,Yes,62.0,False,Carter,Nicole,K
+1506,"Hernandez, Nicholas N.",2024-06-27,2024-10-26,2023-07-01,2024-06-26,2075.0,2075.0,0.0,0.0,Renewed,4 month,No,120.0,False,Hernandez,Nicholas,N
+1606,"Collins, Brian L.",2024-06-27,2025-06-26,2023-06-27,2024-06-26,2005.0,2300.0,14.71,295.0,Renewed,12 month,No,360.0,False,Collins,Brian,L
+1901,"Thompson, Judith M.",2024-06-27,2025-06-26,,,,1570.0,,,Did Not Renew,12 month,No,360.0,False,Thompson,Judith,M
+2401,"Williams, Daniel V.",2024-06-27,2025-06-26,2023-06-27,2024-06-26,0.0,1510.0,,1510.0,Renewed,12 month,No,360.0,False,Williams,Daniel,V
+2304,"Gutierrez, Laura P.",2024-07-03,2026-07-02,2023-07-01,2024-07-02,2130.0,2130.0,0.0,0.0,Renewed,24 month,No,720.0,False,Gutierrez,Laura,P
+2402,"Flores, Robert Q.",2024-07-15,2025-07-14,,,,1540.0,,,Did Not Renew,12 month,No,360.0,False,Flores,Robert,Q
+1607,"Jackson, Joseph S.",2024-07-27,2025-07-26,2023-07-27,2024-07-26,0.0,1490.0,,1490.0,Renewed,12 month,No,360.0,False,Jackson,Joseph,S
+2001,"Green, Kathleen R.",2024-07-27,2025-07-26,2023-08-02,2024-07-26,1420.0,1440.0,1.41,20.0,Renewed,12 month,No,360.0,False,Green,Kathleen,R
+2204,"Morgan, Patricia J.",2024-07-27,2025-01-26,2024-01-27,2024-07-26,1955.0,1955.0,0.0,0.0,Renewed,6 month,No,180.0,False,Morgan,Patricia,J
+1204,"Ramos, Maria L.",2024-07-27,2025-07-26,2024-01-27,2024-07-26,0.0,1795.0,,1795.0,Renewed,12 month,No,360.0,False,Ramos,Maria,L
+1601,"Wright, Michelle S.",2024-07-31,2025-07-30,2023-07-28,2024-07-30,1470.0,1470.0,0.0,0.0,Renewed,12 month,No,360.0,False,Wright,Michelle,S
+1121,"Wood, Ryan T.",2024-08-01,2025-07-31,,,,1425.0,,,Did Not Renew,12 month,No,360.0,False,Wood,Ryan,T
+2507,"Roberts, Edward U.",2024-08-04,2025-08-03,2023-08-04,2024-08-03,1615.0,1615.0,0.0,0.0,Renewed,12 month,No,360.0,False,Roberts,Edward,U
+1220,"Lewis, John V.",2024-08-05,2025-08-04,2023-08-05,2024-08-04,1425.0,1425.0,0.0,0.0,Renewed,12 month,No,360.0,False,Lewis,John,V
+1801,"Mendoza, Matthew V.",2024-08-12,2025-08-11,2023-08-12,2024-08-11,0.0,1470.0,,1470.0,Renewed,12 month,No,360.0,False,Mendoza,Matthew,V
+1501,"Baker, Cynthia Y.",2024-08-24,2025-08-23,2024-02-24,2024-08-23,1545.0,1545.0,0.0,0.0,Renewed,12 month,No,360.0,False,Baker,Cynthia,Y
+1406,"Mitchell, Kevin H.",2024-08-27,2025-08-26,2023-08-27,2024-08-26,0.0,2555.0,,2555.0,Renewed,12 month,No,360.0,False,Mitchell,Kevin,H
+1406,"Mitchell, Kevin H.",2024-08-27,2026-08-26,2023-08-27,2024-08-26,0.0,2555.0,,2555.0,Did Not Renew,24 month,No,720.0,False,Mitchell,Kevin,H
+1701,"Moore, Dorothy W.",2024-08-27,2025-08-26,2023-08-18,2024-08-26,1470.0,1470.0,0.0,0.0,Renewed,12 month,No,360.0,False,Moore,Dorothy,W
+1706,"Gutierrez, Anna M.",2024-08-27,2026-08-26,2023-08-27,2024-08-26,0.0,2200.0,,2200.0,Renewed,24 month,No,720.0,False,Gutierrez,Anna,M
+1804,"Ramos, Mark J.",2024-08-27,2025-08-26,2023-08-27,2024-08-26,0.0,2100.0,,2100.0,Renewed,12 month,No,360.0,False,Ramos,Mark,J
+1906,"Cox, Steven W.",2024-08-27,2025-08-26,2023-08-27,2024-08-26,0.0,2200.0,,2200.0,Renewed,12 month,No,360.0,False,Cox,Steven,W
+2506,"Hernandez, William L.",2024-08-27,2025-08-26,2023-08-27,2024-08-26,0.0,2445.0,,2445.0,Did Not Renew,12 month,No,360.0,False,Hernandez,William,L
+2506,"Hernandez, William L.",2024-08-27,2026-08-26,2023-08-27,2024-08-26,0.0,2445.0,,2445.0,Renewed,24 month,No,720.0,False,Hernandez,William,L
+1219,"Nelson, Anthony Y.",2024-08-27,2025-08-26,2023-08-29,2024-08-26,1465.0,1465.0,0.0,0.0,Renewed,12 month,No,360.0,False,Nelson,Anthony,Y
+2005,"Flores, Christine N.",2024-09-01,2025-08-31,2024-03-01,2024-08-31,2200.0,2200.0,0.0,0.0,Renewed,12 month,No,360.0,False,Flores,Christine,N
+2206,"Torres, Laura D.",2024-09-01,2025-08-26,2023-08-27,2024-08-26,0.0,2230.0,,2230.0,Renewed,11 mo 26 day,No,356.0,False,Torres,Laura,D
+2403,"Jones, Jacob Y.",2024-09-03,2025-09-02,2023-09-03,2024-09-02,2168.0,2235.0,3.09,67.0,Renewed,12 month,No,360.0,False,Jones,Jacob,Y
+2303,"Clark, Brenda J.",2024-09-07,2025-09-26,2024-05-27,2025-05-26,0.0,0.0,,0.0,Renewed,12 mo 20 day,Yes,380.0,False,Clark,Brenda,J
+1110,"Martin, Donna B.",2024-09-17,2025-09-16,,,,1955.0,,,Did Not Renew,12 month,No,360.0,False,Martin,Donna,B
+1503,"Lewis, Kimberly T.",2024-09-27,2025-09-26,,,,2075.0,,,Did Not Renew,12 month,No,360.0,False,Lewis,Kimberly,T
+1805,"Sanchez, Mary A.",2024-09-27,2025-09-26,,,,1985.0,,,Did Not Renew,12 month,No,360.0,False,Sanchez,Mary,A
+2202,"Torres, Emma F.",2024-09-27,2025-09-26,2023-09-27,2024-09-26,0.0,1520.0,,1520.0,Renewed,12 month,No,360.0,False,Torres,Emma,F
+1407,"Salinas Cortes, Katherine R.",2024-10-01,2025-09-30,2023-10-01,2024-09-30,2120.0,2250.0,6.13,130.0,Did Not Renew,12 month,No,360.0,False,Salinas Cortes,Katherine,R
+1407,"Salinas Cortes, Katherine R.",2024-10-01,2026-09-30,2023-10-01,2024-09-30,2120.0,2250.0,6.13,130.0,Renewed,24 month,No,720.0,False,Salinas Cortes,Katherine,R
+2103,"Rogers, Evelyn Q.",2024-10-01,2025-09-26,2023-09-23,2024-09-26,2280.0,2280.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Rogers,Evelyn,Q
+2207,"Bennett, James J.",2024-10-01,2025-09-26,2023-10-07,2024-10-06,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Bennett,James,J
+2407,"Robinson, Aaron A.",2024-10-01,2025-09-26,2024-09-07,2024-09-26,1540.0,1540.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Robinson,Aaron,A
+1207,"Ruiz, George H.",2024-10-01,2025-09-26,,,,1750.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Ruiz,George,H
+1213,"Allen, Katherine D.",2024-10-01,2025-09-26,2023-09-17,2024-09-16,1930.0,1930.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Allen,Katherine,D
+1213,"Allen, Katherine D.",2024-10-01,,2023-09-17,2024-09-16,1930.0,1930.0,0.0,0.0,Did Not Renew,Month To Month,No,,True,Allen,Katherine,D
+1222,"Williams, Scott B.",2024-10-01,2026-09-30,2023-10-07,2024-09-30,1485.0,1485.0,0.0,0.0,Renewed,24 month,No,720.0,False,Williams,Scott,B
+1223,"Ibarra Solis, Brandon C.",2024-10-01,2025-09-30,,,,1425.0,,,Did Not Renew,12 month,No,360.0,False,Ibarra Solis,Brandon,C
+1404,"Wilson, Donna P.",2024-11-01,2025-10-26,2023-10-27,2024-10-26,0.0,2505.0,,2505.0,Renewed,11 mo 26 day,No,356.0,False,Wilson,Donna,P
+1506,"Hernandez, Nicholas N.",2024-11-01,2025-04-26,2024-06-27,2024-10-26,2075.0,2075.0,0.0,0.0,Renewed,5 mo 26 day,No,176.0,False,Hernandez,Nicholas,N
+1902,"Scott, David B.",2024-11-01,2025-10-26,2023-10-27,2024-10-26,0.0,1490.0,,1490.0,Renewed,11 mo 26 day,No,356.0,False,Scott,David,B
+2105,"Scott, Andrew D.",2024-11-01,2025-10-26,,,,2130.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Scott,Andrew,D
+2201,"King, Betty K.",2024-11-01,2025-10-26,,,,1500.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,King,Betty,K
+2306,"Green, Amanda M.",2024-11-01,2025-01-31,2023-11-01,2024-10-31,2280.0,2280.0,0.0,0.0,Renewed,3 month,No,90.0,False,Green,Amanda,M
+2406,"Martinez, Zachary E.",2024-11-01,2025-10-26,,,,2350.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Martinez,Zachary,E
+2504,"Rivera, Nathan M.",2024-11-01,2025-10-26,2023-10-27,2024-10-26,0.0,2275.0,,2275.0,Renewed,11 mo 26 day,No,356.0,False,Rivera,Nathan,M
+1113,"Watson, Jack L.",2024-11-01,2025-10-26,2023-10-24,2024-10-23,1930.0,1930.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Watson,Jack,L
+1123,"Morris, Adam F.",2024-11-01,2025-10-26,2023-10-08,2024-10-26,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Morris,Adam,F
+1206,"Miller, Eric F.",2024-11-01,2025-10-26,,,,1695.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Miller,Eric,F
+1217,"Chavez, Christopher N.",2024-11-01,2025-10-26,,,,1425.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Chavez,Christopher,N
+1602,"Peterson, Julie G.",2024-11-27,2025-11-26,2023-12-06,2024-11-26,1490.0,1490.0,0.0,0.0,Renewed,12 month,No,360.0,False,Peterson,Julie,G
+1602,"Peterson, Julie G.",2024-11-27,,2023-12-06,2024-11-26,1490.0,1490.0,0.0,0.0,Did Not Renew,Month To Month,No,,True,Peterson,Julie,G
+1603,"Davis, Joshua R.",2024-12-01,2025-11-26,,,,2200.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Davis,Joshua,R
+1905,"Miller, Carol H.",2024-12-01,2025-11-26,,,,2100.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Miller,Carol,H
+2004,"Bailey, Deborah Q.",2024-12-01,2025-11-26,,,,2075.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Bailey,Deborah,Q
+2502,"Ward, Kelly J.",2024-12-01,2025-11-26,2023-11-15,2024-11-26,0.0,1615.0,,1615.0,Renewed,11 mo 26 day,No,356.0,False,Ward,Kelly,J
+2503,"Nguyen, Sharon A.",2024-12-01,2025-11-26,2023-11-28,2024-11-26,2400.0,2400.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Nguyen,Sharon,A
+1402,"Perez, Benjamin V.",2025-01-01,2025-03-26,2024-01-26,2024-12-26,2000.0,2000.0,0.0,0.0,Renewed,2 mo 26 day,No,86.0,False,Perez,Benjamin,V
+1106,"Harris, Walter K.",2025-01-01,2025-12-26,2023-12-29,2024-12-26,1820.0,1820.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Harris,Walter,K
+1122,"Morgan, Sharon L.",2025-01-01,2025-12-26,2024-01-05,2024-12-26,1485.0,1485.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Morgan,Sharon,L
+1217,"Nguyen, Jessica C.",2025-01-06,2025-10-26,2025-01-02,2025-04-01,0.0,0.0,,0.0,Renewed,9 mo 21 day,Yes,291.0,False,Nguyen,Jessica,C
+1210,"Lee, Gregory U.",2025-01-07,2025-12-26,2024-01-07,2025-01-06,1955.0,1955.0,0.0,0.0,Renewed,11 mo 20 day,No,350.0,False,Lee,Gregory,U
+1108,"Garcia, Donald W.",2025-01-15,2025-12-26,,,,2003.0,,,Did Not Renew,11 mo 12 day,No,342.0,False,Garcia,Donald,W
+2204,"Morgan, Patricia J.",2025-01-27,2026-01-26,2024-07-27,2025-01-26,1955.0,1955.0,0.0,0.0,Renewed,12 month,No,360.0,False,Morgan,Patricia,J
+2204,"Morgan, Patricia J.",2025-01-27,,2024-07-27,2025-01-26,1955.0,1955.0,0.0,0.0,Did Not Renew,Month To Month,No,,True,Morgan,Patricia,J
+1805,"Morris, Judith B.",2025-02-01,2026-01-26,2024-10-13,2025-09-26,1985.0,1985.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Morris,Judith,B
+2106,"Howard, Lauren B.",2025-02-01,2026-01-26,,,,2280.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Howard,Lauren,B
+1208,"Mitchell, Sarah M.",2025-02-01,2026-01-26,2024-02-01,2025-01-26,1930.0,1930.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Mitchell,Sarah,M
+2106,"Ramos, Samuel N.",2025-02-01,2025-02-28,2025-01-06,2026-01-26,0.0,0.0,,0.0,Renewed,1 month,Yes,30.0,False,Ramos,Samuel,N
+1504,"Smith, Stephanie P.",2025-02-17,2026-02-26,2025-04-01,2026-03-26,0.0,0.0,,0.0,Renewed,12 mo 10 day,Yes,370.0,False,Smith,Stephanie,P
+1505,"Ortiz, Jack A.",2025-03-27,2026-03-26,2023-03-27,2025-03-26,1690.0,2025.0,19.82,335.0,Renewed,12 month,No,360.0,False,Ortiz,Jack,A
+1505,"Ortiz, Jack A.",2025-03-27,,2023-03-27,2025-03-26,1690.0,1932.0,14.32,242.0,Did Not Renew,Month To Month,No,,True,Ortiz,Jack,A
+1205,"Gray, Thomas V.",2025-03-27,2026-03-26,2024-03-27,2025-03-26,0.0,1710.0,,1710.0,Renewed,12 month,No,360.0,False,Gray,Thomas,V
+1802,"Wilson, Emily R.",2025-04-01,2026-03-26,2024-03-27,2025-03-26,1630.0,1630.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Wilson,Emily,R
+1109,"Smith, Stephanie P.",2025-04-01,2026-03-26,2024-04-02,2025-03-26,1955.0,1955.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Smith,Stephanie,P
+2106,"Taylor, Susan Q.",2025-04-01,2026-03-26,2024-06-27,2025-06-25,0.0,0.0,,0.0,Renewed,11 mo 26 day,Yes,356.0,False,Taylor,Susan,Q
+1402,"Diaz, Michael P.",2025-04-12,2026-04-26,2024-04-26,2025-04-11,0.0,1850.0,,1850.0,Renewed,12 mo 15 day,Yes,375.0,False,Diaz,Michael,P
+1806,"Flores, Kenneth L.",2025-04-18,2026-10-26,2025-04-27,2026-10-26,0.0,1850.0,,1850.0,Renewed,18 mo 9 day,Yes,549.0,False,Flores,Kenneth,L
+1907,"Flores, Kenneth L.",2025-04-27,2026-10-26,2023-04-27,2025-04-26,0.0,1492.0,,1492.0,Renewed,18 month,No,540.0,False,Flores,Kenneth,L
+1506,"Hernandez, Nicholas N.",2025-05-01,2025-08-26,2024-11-01,2025-04-26,2075.0,2075.0,0.0,0.0,Renewed,3 mo 26 day,No,116.0,False,Hernandez,Nicholas,N
+2007,"Johnson, Timothy G.",2025-05-01,2026-04-26,2024-04-27,2025-04-26,0.0,1490.0,,1490.0,Renewed,11 mo 26 day,No,356.0,False,Johnson,Timothy,G
+1112,"Anderson, Margaret F.",2025-05-01,2026-04-26,2024-04-24,2025-04-23,1930.0,1930.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Anderson,Margaret,F
+1120,"Stewart, Jonathan R.",2025-05-01,2026-04-26,2024-05-03,2025-04-26,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Stewart,Jonathan,R
+1707,"Rogers, Angela S.",2025-06-01,2026-05-26,,,,1490.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Rogers,Angela,S
+1803,"Wilson, Karen T.",2025-06-01,2026-05-26,2024-05-18,2025-05-26,2200.0,2200.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Wilson,Karen,T
+1903,"Roberts, Sandra Q.",2025-06-01,2026-05-26,2024-05-27,2025-05-26,0.0,2200.0,,2200.0,Renewed,11 mo 26 day,No,356.0,False,Roberts,Sandra,Q
+1904,"Gomez, Linda U.",2025-06-01,2026-05-31,2024-05-24,2025-05-26,1985.0,1985.0,0.0,0.0,Renewed,12 month,No,360.0,False,Gomez,Linda,U
+2002,"Walker, Cynthia M.",2025-06-01,2026-05-26,2024-05-27,2025-05-26,1630.0,1630.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Walker,Cynthia,M
+1102,"Lopez, Rebecca V.",2025-06-01,2026-05-26,2024-05-15,2025-05-26,1795.0,1795.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Lopez,Rebecca,V
+1218,"Campbell, Larry G.",2025-06-01,2026-05-26,2024-05-15,2025-05-26,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Campbell,Larry,G
+1224,"Cuevas Bermudez, Daniel H.",2025-06-01,2026-05-26,,,,1745.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Cuevas Bermudez,Daniel,H
+1604,"Ramirez, Joan M.",2025-06-07,2026-05-26,2024-06-07,2025-06-06,2100.0,2100.0,0.0,0.0,Renewed,11 mo 20 day,No,350.0,False,Ramirez,Joan,M
+1115,"Johnson, Rachel J.",2025-06-16,2026-06-26,,,,1425.0,,,Did Not Renew,12 mo 11 day,No,371.0,False,Johnson,Rachel,J
+1118,"Cook, William W.",2025-06-20,2026-07-20,2024-06-22,2025-06-26,1930.0,1425.0,-26.17,-505.0,Renewed,13 mo 1 day,Yes,391.0,False,Cook,William,W
+1403,"Gray, Anna Y.",2025-07-01,2026-06-26,2024-06-29,2025-06-26,2785.0,2685.0,-3.59,-100.0,Renewed,11 mo 26 day,No,356.0,False,Gray,Anna,Y
+1606,"Collins, Brian L.",2025-07-01,2026-06-26,2024-06-27,2025-06-26,2300.0,2300.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Collins,Brian,L
+2104,"Rodriguez, Christine A.",2025-07-01,2026-06-26,2024-06-08,2025-06-26,2015.0,2015.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Rodriguez,Christine,A
+2205,"Brooks, Janet B.",2025-07-01,2026-06-26,,,,2015.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Brooks,Janet,B
+1103,"Young, Jennifer C.",2025-07-01,2026-06-26,2024-07-03,2025-06-26,1795.0,1795.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Young,Jennifer,C
+1507,"Howard, Alexander D.",2025-08-01,2026-03-26,2024-07-26,2025-07-26,1465.0,1465.0,0.0,0.0,Renewed,7 mo 26 day,No,236.0,False,Howard,Alexander,D
+1702,"Ortiz, Peter E.",2025-08-01,2026-07-26,2024-08-01,2025-07-26,1490.0,1490.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Ortiz,Peter,E
+1901,"Hall, Kimberly F.",2025-08-01,2026-07-26,,,,1470.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Hall,Kimberly,F
+2102,"Ponce Duarte, Samantha G.",2025-08-01,2026-10-26,2024-07-25,2025-07-24,1520.0,1520.0,0.0,0.0,Did Not Renew,14 mo 26 day,No,446.0,False,Ponce Duarte,Samantha,G
+2102,"Ponce Duarte, Samantha G.",2025-08-01,,2024-07-25,2025-07-24,1520.0,1520.0,0.0,0.0,Month To Month,Month To Month,No,,True,Ponce Duarte,Samantha,G
+2107,"Cooper, Jose H.",2025-08-01,2026-07-26,2024-07-30,2025-07-26,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Cooper,Jose,H
+2303,"Clark, Brenda J.",2025-08-01,2026-07-26,2024-09-07,2025-07-26,2280.0,2280.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Clark,Brenda,J
+2307,"White, Dennis J.",2025-08-01,2026-07-26,2024-07-27,2025-07-26,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,White,Dennis,J
+2401,"Adams, Debra K.",2025-08-01,2026-07-26,2024-08-01,2025-07-26,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Adams,Debra,K
+2402,"Johnson, Gary L.",2025-08-01,2026-07-26,2024-07-20,2025-07-26,0.0,1540.0,,1540.0,Renewed,11 mo 26 day,No,356.0,False,Johnson,Gary,L
+2404,"Carter, David M.",2025-08-01,2026-07-26,2024-07-19,2025-07-26,2035.0,2035.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Carter,David,M
+1117,"Collins, Paul N.",2025-08-01,2026-07-26,2024-07-13,2025-07-31,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Collins,Paul,N
+1121,"Thompson, Jeffrey P.",2025-08-01,2026-07-26,2024-08-09,2025-07-26,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Thompson,Jeffrey,P
+1204,"Ramos, Maria L.",2025-08-01,2026-07-26,2024-07-27,2025-07-26,1795.0,1795.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Ramos,Maria,L
+2507,"Roberts, Edward U.",2025-08-04,2026-07-26,2024-08-04,2025-08-03,1615.0,1615.0,0.0,0.0,Renewed,11 mo 23 day,No,353.0,False,Roberts,Edward,U
+2305,"Richardson, Stephen Q.",2025-08-27,2026-08-26,2024-09-13,2025-08-26,2015.0,2015.0,0.0,0.0,Renewed,12 month,No,360.0,False,Richardson,Stephen,Q
+2305,"Richardson, Stephen Q.",2025-08-27,,2024-09-13,2025-08-26,2015.0,2015.0,0.0,0.0,Did Not Renew,Month To Month,No,,True,Richardson,Stephen,Q
+1219,"Nelson, Anthony Y.",2025-08-27,2026-08-26,2024-08-27,2025-08-26,1465.0,1465.0,0.0,0.0,Renewed,12 month,No,360.0,False,Nelson,Anthony,Y
+1406,"Mitchell, Kevin H.",2025-09-01,2026-08-26,2024-08-27,2025-08-26,2555.0,2555.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Mitchell,Kevin,H
+1501,"Baker, Cynthia Y.",2025-09-01,2026-08-26,,,,1545.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Baker,Cynthia,Y
+1501,"Baker, Cynthia Y.",2025-09-01,2026-08-31,2024-08-24,2025-08-23,1545.0,1545.0,0.0,0.0,Renewed,12 month,No,360.0,False,Baker,Cynthia,Y
+1501,"Baker, Cynthia Y.",2025-09-01,,2024-08-24,2025-08-23,1545.0,1545.0,0.0,0.0,Did Not Renew,Month To Month,No,,True,Baker,Cynthia,Y
+1703,"Harris, Melissa F.",2025-09-01,2026-08-26,2023-08-27,2025-08-26,0.0,2200.0,,2200.0,Renewed,11 mo 26 day,No,356.0,False,Harris,Melissa,F
+1801,"Mendoza, Matthew V.",2025-09-01,2026-08-31,2024-08-12,,1420.0,1470.0,3.52,50.0,Renewed,12 month,No,360.0,False,Mendoza,Matthew,V
+1804,"Ramos, Mark J.",2025-09-01,2026-08-26,2024-08-27,2025-08-26,2100.0,2100.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Ramos,Mark,J
+1906,"Cox, Steven W.",2025-09-01,2026-08-26,2024-08-27,2025-08-26,2200.0,2200.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Cox,Steven,W
+2206,"Torres, Laura D.",2025-09-01,2026-08-26,2024-09-01,2025-08-26,2230.0,2230.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Torres,Laura,D
+1116,"Walker, Eric R.",2025-09-01,2026-08-26,2024-08-10,2025-08-26,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Walker,Eric,R
+2403,"Jones, Jacob Y.",2025-09-03,2026-08-26,,,,2235.0,,,Did Not Renew,11 mo 24 day,No,354.0,False,Jones,Jacob,Y
+1503,"Turner, Carolyn S.",2025-10-01,2026-09-26,2024-10-05,2025-09-26,2075.0,2075.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Turner,Carolyn,S
+1801,"Mendoza, Matthew V.",2025-10-01,,2025-09-01,2026-08-31,1470.0,1470.0,0.0,0.0,Month To Month,Month To Month,No,,True,Mendoza,Matthew,V
+1807,"Diaz, Jerry T.",2025-10-01,2026-09-26,2024-10-05,2025-09-26,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Diaz,Jerry,T
+2202,"Torres, Emma F.",2025-10-01,2026-09-26,2024-09-27,2025-09-26,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Torres,Emma,F
+2207,"Bennett, James J.",2025-10-01,2026-09-26,2024-10-01,2025-09-26,1520.0,1520.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Bennett,James,J
+2407,"Robinson, Aaron A.",2025-10-01,2026-09-26,,,,1540.0,,,Did Not Renew,11 mo 26 day,No,356.0,False,Robinson,Aaron,A
+1202,"Jackson, Patricia U.",2025-10-01,2026-09-26,2024-10-01,2025-09-26,1695.0,1695.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Jackson,Patricia,U
+1216,"Gonzalez, Barbara V.",2025-10-01,2026-09-26,2024-09-23,2025-09-26,1425.0,1425.0,0.0,0.0,Renewed,11 mo 26 day,No,356.0,False,Gonzalez,Barbara,V
+1404,"Wilson, Donna P.",2025-10-27,2026-10-26,2024-11-01,2025-10-26,2505.0,2505.0,0.0,0.0,Renewed,12 month,No,360.0,False,Wilson,Donna,P
+2105,"Edwards, Maria W.",2025-10-27,2026-10-26,,,,2015.0,,,Did Not Renew,12 month,No,360.0,False,Edwards,Maria,W
+2406,"Mendoza, Ashley Y.",2025-10-27,2026-05-26,2024-11-16,2025-10-26,2350.0,2350.0,0.0,0.0,Renewed,7 month,No,210.0,False,Mendoza,Ashley,Y
+1123,"Morris, Adam F.",2025-10-27,2026-10-26,2024-11-01,2025-10-26,1425.0,1425.0,0.0,0.0,Renewed,12 month,No,360.0,False,Morris,Adam,F
+1206,"Cox, Raymond A.",2025-10-27,2026-10-26,2024-11-15,2025-10-26,1725.0,1725.0,0.0,0.0,Renewed,12 month,No,360.0,False,Cox,Raymond,A
+1223,"Jones, Christina B.",2025-10-27,2026-10-26,,,,1425.0,,,Did Not Renew,12 month,No,360.0,False,Jones,Christina,B
+1124,"Cabral Nunez, Stephen E.",2025-10-29,2026-10-28,2023-10-29,2025-10-28,0.0,1635.0,,1635.0,Renewed,12 month,No,360.0,False,Cabral Nunez,Stephen,E
+1603,"Robinson, Evelyn C.",2025-11-27,2026-11-26,2024-11-20,2025-11-26,2200.0,2200.0,0.0,0.0,Renewed,12 month,No,360.0,False,Robinson,Evelyn,C
+2502,"Ward, Kelly J.",2025-11-27,2026-11-26,2024-12-01,2025-11-26,1615.0,1615.0,0.0,0.0,Renewed,12 month,No,360.0,False,Ward,Kelly,J
+2503,"Nguyen, Sharon A.",2025-11-27,2026-11-26,2024-12-01,2025-11-26,2400.0,2400.0,0.0,0.0,Renewed,12 month,No,360.0,False,Nguyen,Sharon,A
+1104,"Delgado Pena, Emily D.",2025-11-27,2026-11-26,2024-12-01,2025-11-26,1595.0,1625.0,1.88,30.0,Renewed,12 month,No,360.0,False,Delgado Pena,Emily,D
+1201,"Parker, Helen E.",2025-11-27,2026-11-26,,,,1725.0,,,Did Not Renew,12 month,No,360.0,False,Parker,Helen,E
+1201,"Morgan, Sharon L.",2025-12-26,2026-12-25,2024-01-05,2025-12-26,0.0,1575.0,,1575.0,Renewed,12 month,Yes,360.0,False,Morgan,Sharon,L
+1106,"Harris, Walter K.",2025-12-27,2026-12-26,2025-01-01,2025-12-26,1820.0,1820.0,0.0,0.0,Renewed,12 month,No,360.0,False,Harris,Walter,K
+1210,"Lee, Gregory U.",2025-12-27,2026-12-26,,,,1955.0,,,Did Not Renew,12 month,No,360.0,False,Lee,Gregory,U
+1805,"Morris, Judith B.",2026-01-27,2026-03-26,2025-02-01,2026-01-26,1985.0,1985.0,0.0,0.0,Renewed,2 month,No,60.0,False,Morris,Judith,B
+2201,"Allen, Henry F.",2026-01-27,2027-01-26,2025-01-17,2026-01-26,1500.0,1500.0,0.0,0.0,Renewed,12 month,No,360.0,False,Allen,Henry,F
+2204,"Morgan, Patricia J.",2026-01-27,2027-01-26,2025-01-27,2026-01-26,1955.0,2015.0,3.07,60.0,Renewed,12 month,No,360.0,False,Morgan,Patricia,J
+2405,"Thomas, Victoria G.",2026-01-27,2027-01-26,2025-01-31,2026-01-26,2035.0,2035.0,0.0,0.0,Renewed,12 month,No,360.0,False,Thomas,Victoria,G
+1203,"Mitchell, Barbara K.",2026-01-27,2027-01-26,2024-01-27,2026-01-26,0.0,1795.0,,1795.0,Renewed,12 month,No,360.0,False,Mitchell,Barbara,K
+1207,"Torres, Thomas H.",2026-01-27,2027-01-26,,,,1650.0,,,Pending,12 month,No,360.0,False,Torres,Thomas,H
+2306,"Kim, Kenneth J.",2026-02-26,2027-02-25,2025-03-08,2026-02-25,2280.0,2280.0,0.0,0.0,Renewed,12 month,No,360.0,False,Kim,Kenneth,J
+1504,"Smith, Stephanie P.",2026-02-27,2027-02-26,,,,1960.0,,,Did Not Renew,12 month,No,360.0,False,Smith,Stephanie,P
+1107,"Ruiz, Amanda K.",2026-02-27,2027-02-26,,,,1650.0,,,Pending,12 month,No,360.0,False,Ruiz,Amanda,K
+1502,"Murphy, Michael B.",2026-03-27,2027-03-26,2024-03-27,2026-03-26,1605.0,1605.0,0.0,0.0,Did Not Renew,12 month,No,360.0,False,Murphy,Michael,B
+1502,"Murphy, Michael B.",2026-03-27,2027-06-26,2024-03-27,2026-03-26,1605.0,1445.0,-9.97,-160.0,Renewed,15 month,No,450.0,False,Murphy,Michael,B
+1502,"Murphy, Michael B.",2026-03-27,2027-09-26,2024-03-27,2026-03-26,1605.0,1445.0,-9.97,-160.0,Did Not Renew,18 month,No,540.0,False,Murphy,Michael,B
+1502,"Murphy, Michael B.",2026-03-27,2026-12-26,2024-03-27,2026-03-26,1605.0,1790.0,11.53,185.0,Did Not Renew,9 month,No,270.0,False,Murphy,Michael,B
+1507,"Howard, Alexander D.",2026-03-27,2027-03-26,,,,1465.0,,,Did Not Renew,12 month,No,360.0,False,Howard,Alexander,D
+1802,"Wilson, Emily R.",2026-03-27,2027-03-26,,,,1630.0,,,Pending,12 month,No,360.0,False,Wilson,Emily,R
+1805,"Morris, Judith B.",2026-03-27,2027-03-26,,,,1985.0,,,Did Not Renew,12 month,No,360.0,False,Morris,Judith,B
+2006,"Bennett, Tyler L.",2026-03-27,2027-03-26,2025-04-16,2026-03-26,2200.0,2200.0,0.0,0.0,Renewed,12 month,No,360.0,False,Bennett,Tyler,L
+2106,"Taylor, Susan Q.",2026-03-27,2027-03-26,,,,2280.0,,,Did Not Renew,12 month,No,360.0,False,Taylor,Susan,Q
+1205,"Gray, Thomas V.",2026-03-27,2027-03-26,2025-03-27,2026-03-26,1710.0,1710.0,0.0,0.0,Renewed,12 month,No,360.0,False,Gray,Thomas,V
+1215,"King, Lauren M.",2026-03-27,2027-03-26,2025-04-07,2026-03-26,1415.0,1415.0,0.0,0.0,Renewed,12 month,No,360.0,False,King,Lauren,M
+2103,"Watson, Sandra N.",2026-03-30,2026-09-29,2025-09-30,2026-03-29,2280.0,2280.0,0.0,0.0,Renewed,6 month,No,180.0,False,Watson,Sandra,N
+1505,"Ortiz, Jack A.",2026-04-01,2027-03-26,2025-03-27,2026-03-26,2025.0,1990.0,-1.73,-35.0,Renewed,11 mo 26 day,No,356.0,False,Ortiz,Jack,A
+1402,"Diaz, Michael P.",2026-04-27,2027-04-26,,,,1900.0,,,Pending,12 month,No,360.0,False,Diaz,Michael,P
+1402,"Diaz, Michael P.",2026-04-27,2027-01-26,,,,2185.0,,,Pending,9 month,No,270.0,False,Diaz,Michael,P
+1402,"Diaz, Michael P.",2026-04-27,2027-07-26,,,,1710.0,,,Pending,15 month,No,450.0,False,Diaz,Michael,P
+1402,"Diaz, Michael P.",2026-04-27,2027-10-26,,,,1710.0,,,Pending,18 month,No,540.0,False,Diaz,Michael,P
+1905,"Rivera, Shirley P.",2026-04-27,2027-04-26,,,,1985.0,,,Pending,12 month,No,360.0,False,Rivera,Shirley,P
+1905,"Rivera, Shirley P.",2026-04-27,2027-01-26,,,,2285.0,,,Pending,9 month,No,270.0,False,Rivera,Shirley,P
+1905,"Rivera, Shirley P.",2026-04-27,2027-07-26,,,,1785.0,,,Pending,15 month,No,450.0,False,Rivera,Shirley,P
+1905,"Rivera, Shirley P.",2026-04-27,2027-10-26,,,,1785.0,,,Pending,18 month,No,540.0,False,Rivera,Shirley,P
+2007,"Johnson, Timothy G.",2026-04-27,2027-04-26,2025-05-01,2026-04-26,1490.0,1490.0,0.0,0.0,Did Not Renew,12 month,No,360.0,False,Johnson,Timothy,G
+2007,"Johnson, Timothy G.",2026-04-27,2027-01-26,2025-05-01,2026-04-26,1490.0,1715.0,15.1,225.0,Did Not Renew,9 month,No,270.0,False,Johnson,Timothy,G
+2007,"Johnson, Timothy G.",2026-04-27,2027-07-26,2025-05-01,2026-04-26,1490.0,1340.0,-10.07,-150.0,Renewed,15 month,No,450.0,False,Johnson,Timothy,G
+2007,"Johnson, Timothy G.",2026-04-27,2027-10-26,2025-05-01,2026-04-26,1490.0,1340.0,-10.07,-150.0,Did Not Renew,18 month,No,540.0,False,Johnson,Timothy,G
+2501,"Chavez, Charles Q.",2026-04-27,2027-04-26,2025-04-23,2026-04-26,1500.0,1500.0,0.0,0.0,Renewed,12 month,No,360.0,False,Chavez,Charles,Q
+2501,"Chavez, Charles Q.",2026-04-27,2027-01-26,2025-04-23,2026-04-26,1500.0,1725.0,15.0,225.0,Did Not Renew,9 month,No,270.0,False,Chavez,Charles,Q
+2501,"Chavez, Charles Q.",2026-04-27,2027-07-26,2025-04-23,2026-04-26,1500.0,1350.0,-10.0,-150.0,Did Not Renew,15 month,No,450.0,False,Chavez,Charles,Q
+2501,"Chavez, Charles Q.",2026-04-27,2027-10-26,2025-04-23,2026-04-26,1500.0,1350.0,-10.0,-150.0,Did Not Renew,18 month,No,540.0,False,Chavez,Charles,Q
+1112,"Anderson, Margaret F.",2026-04-27,2027-04-26,,,,1930.0,,,Pending,12 month,No,360.0,False,Anderson,Margaret,F
+1112,"Anderson, Margaret F.",2026-04-27,2027-01-26,,,,2220.0,,,Pending,9 month,No,270.0,False,Anderson,Margaret,F
+1112,"Anderson, Margaret F.",2026-04-27,2027-07-26,,,,1735.0,,,Pending,15 month,No,450.0,False,Anderson,Margaret,F
+1112,"Anderson, Margaret F.",2026-04-27,2027-10-26,,,,1735.0,,,Pending,18 month,No,540.0,False,Anderson,Margaret,F
+1114,"Hill, Diane R.",2026-04-27,2027-04-26,,,,1630.0,,,Did Not Renew,12 month,No,360.0,False,Hill,Diane,R
+1114,"Hill, Diane R.",2026-04-27,2027-01-26,,,,1875.0,,,Did Not Renew,9 month,No,270.0,False,Hill,Diane,R
+1114,"Hill, Diane R.",2026-04-27,2027-07-26,,,,1465.0,,,Did Not Renew,15 month,No,450.0,False,Hill,Diane,R
+1114,"Hill, Diane R.",2026-04-27,2027-10-26,,,,1465.0,,,Did Not Renew,18 month,No,540.0,False,Hill,Diane,R
+1120,"Stewart, Jonathan R.",2026-04-27,2027-04-26,,,,1425.0,,,Pending,12 month,No,360.0,False,Stewart,Jonathan,R
+1120,"Stewart, Jonathan R.",2026-04-27,2027-01-26,,,,1640.0,,,Pending,9 month,No,270.0,False,Stewart,Jonathan,R
+1120,"Stewart, Jonathan R.",2026-04-27,2027-07-26,,,,1285.0,,,Pending,15 month,No,450.0,False,Stewart,Jonathan,R
+1120,"Stewart, Jonathan R.",2026-04-27,2027-10-26,,,,1285.0,,,Pending,18 month,No,540.0,False,Stewart,Jonathan,R

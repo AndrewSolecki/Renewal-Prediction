@@ -1,0 +1,140 @@
+Unit,Unit Type,BD/BA,Tenant,Past Due,Late Count
+100,,--/--,Kyle S. Bailey,13084.7,16.0
+102,,--/--,Business Tenant 1,-2555.95,10.0
+103,,--/--,Daniel T. Davis,12811.42,1.0
+104,,--/--,Rachel U. James,5373.0,2.0
+105,,--/--,Nicole V. Phillips,22.15,2.0
+106,,--/--,Brian W. Lee,-25.0,3.0
+1101,Unit Type 11,1/1.00,Judith Y. Perez,0.0,0.0
+1102,Unit Type 10,1/1.00,Ronald A. Garcia,0.0,0.0
+1103,Unit Type 10,1/1.00,Jennifer C. Young,9.18,0.0
+1104,Unit Type 10,1/1.00,Emily D. Delgado Pena,0.0,0.0
+1105,Unit Type 10,1/1.00,Pamela B. Baker,9.18,0.0
+1106,Unit Type 11,1/1.00,Douglas C. Morales,0.0,0.0
+1107,Unit Type 8,1/1.00,Melissa D. Murphy,0.0,0.0
+1108,Unit Type 17,2/2.00,Joseph E. Nguyen,12.0,0.0
+1109,Unit Type 17,2/2.00,Kevin F. Reyes,646.68,7.0
+1110,Unit Type 17,2/2.00,Dennis J. White,0.0,1.0
+1111,Unit Type 17,2/2.00,Mark G. Reed,12.0,0.0
+1112,Unit Type 17,2/2.00,,,
+1113,Unit Type 17,2/2.00,Matthew H. Anderson,0.0,0.0
+1114,Unit Type 4,1/1.00,Diane R. Hill,100.0,7.0
+1115,Unit Type 2,1/1.00,Steven J. Campbell,0.0,0.0
+1116,Unit Type 3,1/1.00,Jacob K. Evans,0.0,0.0
+1117,Unit Type 3,1/1.00,Paul N. Collins,7.0,0.0
+1118,Unit Type 3,1/1.00,William W. Cook,7.0,0.0
+1119,Unit Type 3,1/1.00,Aaron L. Clark,0.0,0.0
+1120,Unit Type 3,1/1.00,,,
+1121,Unit Type 3,1/1.00,Jeffrey P. Thompson,7.0,0.0
+1122,Unit Type 3,1/1.00,Donna M. Hughes,0.0,1.0
+1123,Unit Type 3,1/1.00,Lisa N. Brown,7.0,0.0
+1124,Unit Type 7,1/1.00,Stephen E. Cabral Nunez,8.77,0.0
+1201,Unit Type 11,1/1.00,Sharon L. Morgan,10.24,0.0
+1202,Unit Type 10,1/1.00,Patricia U. Jackson,0.0,1.0
+1203,Unit Type 10,1/1.00,Barbara K. Mitchell,9.18,0.0
+1204,Unit Type 10,1/1.00,Maria L. Ramos,9.18,0.0
+1205,Unit Type 10,1/1.00,Thomas V. Gray,9.18,0.0
+1206,Unit Type 11,1/1.00,Raymond A. Cox,0.0,13.0
+1207,Unit Type 8,1/1.00,Katherine P. Ramirez,0.0,1.0
+1208,Unit Type 17,2/2.00,Elizabeth Q. Hernandez,-8.97,5.0
+1209,Unit Type 17,2/2.00,Emma R. Gutierrez,12.0,0.0
+1210,Unit Type 17,2/2.00,Nancy S. Flores,12.0,0.0
+1211,Unit Type 17,2/2.00,George T. Green,1.55,0.0
+1212,Unit Type 17,2/2.00,James U. Wright,-1774.0,0.0
+1213,Unit Type 17,2/2.00,Betty V. Wood,-186.23,1.0
+1214,Unit Type 4,1/1.00,Jack W. Roberts,74.54,1.0
+1215,Unit Type 2,1/1.00,Lauren M. King,6.83,0.0
+1216,Unit Type 3,1/1.00,Nathan Y. Lewis,0.0,0.0
+1217,Unit Type 3,1/1.00,Christopher A. Moore,-8.0,0.0
+1218,Unit Type 3,1/1.00,Jason B. Nelson,0.0,0.0
+1219,Unit Type 3,1/1.00,Anthony Y. Nelson,7.0,0.0
+1220,Unit Type 3,1/1.00,Deborah C. Sanchez,0.0,1.0
+1221,Unit Type 3,1/1.00,Joshua D. Williams,100.0,3.0
+1222,Unit Type 3,1/1.00,Scott B. Williams,0.0,7.0
+1223,Unit Type 3,1/1.00,Timothy E. Kelly,7.0,0.0
+1224,Unit Type 7,1/1.00,Frank F. Scott,72.61,0.0
+1402,Unit Type 9,2/1.00,Michael P. Diaz,9.12,0.0
+1403,Unit Type 16,2/1.00,Gregory G. Martinez,111.48,2.0
+1404,Unit Type 14,2/1.00,Donna P. Wilson,0.0,7.0
+1405,Unit Type 14,2/1.00,Benjamin H. Morris,10.9,0.0
+1406,Unit Type 16,2/1.00,Kevin H. Mitchell,11.48,0.0
+1407,Unit Type 6,1/1.00,,,
+1501,Unit Type 1,1/1.00,Cynthia Y. Baker,-1564.7,0.0
+1502,Unit Type 5,1/1.00,Michael B. Murphy,0.0,1.0
+1503,Unit Type 12,2/1.00,Donald J. Peterson,0.0,0.0
+1504,Unit Type 15,2/1.00,Cynthia K. Cifuentes Roa,11.47,0.0
+1505,Unit Type 15,2/1.00,Jack A. Ortiz,11.47,0.0
+1506,Unit Type 13,2/1.00,Richard L. Ward,0.0,0.0
+1507,Unit Type 5,1/1.00,Michael M. Harris,0.0,0.0
+1601,Unit Type 1,1/1.00,Eric R. Walker,1.55,0.0
+1602,Unit Type 5,1/1.00,Jessica N. Morgan,0.0,0.0
+1603,Unit Type 12,2/1.00,Amy P. Mitchell,10.88,0.0
+1604,Unit Type 15,2/1.00,Joan M. Ramirez,23.07,0.0
+1605,Unit Type 15,2/1.00,Heather Q. Ramos,0.0,0.0
+1606,Unit Type 13,2/1.00,Brian L. Collins,10.88,0.0
+1607,Unit Type 5,1/1.00,Margaret R. Smith,7.3,0.0
+1701,Unit Type 1,1/1.00,Larry S. Taylor,0.0,3.0
+1702,Unit Type 5,1/1.00,Justin T. Stewart,7.3,0.0
+1703,Unit Type 12,2/1.00,Melissa F. Harris,10.88,9.0
+1704,Unit Type 15,2/1.00,Thomas H. Torres,-11.74,0.0
+1705,Unit Type 15,2/1.00,Brenda U. Rogers,0.0,4.0
+1706,Unit Type 13,2/1.00,Megan V. Wilson,0.0,0.0
+1707,Unit Type 5,1/1.00,Joyce W. Gomez,-707.7,1.0
+1801,Unit Type 1,1/1.00,Joan Y. Lopez,6.83,0.0
+1802,Unit Type 5,1/1.00,Emily R. Wilson,153.37,0.0
+1803,Unit Type 12,2/1.00,,,
+1804,Unit Type 15,2/1.00,Mark J. Ramos,11.47,0.0
+1805,Unit Type 15,2/1.00,Nicholas A. Cook,5.18,0.0
+1806,Unit Type 13,2/1.00,Kenneth L. Flores,0.0,0.0
+1807,Unit Type 5,1/1.00,Jerry T. Diaz,7.3,0.0
+1901,Unit Type 1,1/1.00,Laura B. Gray,6.83,0.0
+1902,Unit Type 5,1/1.00,Robert C. Rodriguez,0.0,0.0
+1903,Unit Type 12,2/1.00,Sandra Q. Roberts,0.0,2.0
+1904,Unit Type 15,2/1.00,Linda U. Gomez,100.24,2.0
+1905,Unit Type 15,2/1.00,Shirley P. Rivera,0.0,0.0
+1906,Unit Type 13,2/1.00,Steven W. Cox,2404.24,1.0
+1907,Unit Type 5,1/1.00,Kathleen D. Brooks,7.3,0.0
+2001,Unit Type 1,1/1.00,Michelle E. Young,0.0,1.0
+2002,Unit Type 5,1/1.00,Ryan F. Howard,0.0,0.0
+2003,Unit Type 12,2/1.00,Edward G. Ortiz,10.88,0.0
+2004,Unit Type 15,2/1.00,John H. Hall,0.0,0.0
+2005,Unit Type 15,2/1.00,Peter E. Ortiz,11.47,0.0
+2006,Unit Type 13,2/1.00,Tyler L. Bennett,10.88,0.0
+2007,Unit Type 5,1/1.00,Timothy G. Johnson,7.3,2.0
+2101,Unit Type 1,1/1.00,Dorothy J. Cruz,6.83,0.0
+2102,Unit Type 5,1/1.00,Anthony K. Cooper,-1546.04,0.0
+2103,Unit Type 12,2/1.00,Sandra N. Watson,0.0,1.0
+2104,Unit Type 15,2/1.00,Christine A. Rodriguez,0.0,0.0
+2105,Unit Type 15,2/1.00,Mary L. White,0.0,2.0
+2106,Unit Type 13,2/1.00,Helen G. Brown,0.0,0.0
+2107,Unit Type 5,1/1.00,Jose H. Cooper,7.3,0.0
+2201,Unit Type 1,1/1.00,Henry F. Allen,0.0,0.0
+2202,Unit Type 5,1/1.00,Scott M. Vargas Osorio,69.16,1.0
+2203,Unit Type 12,2/1.00,Brandon N. Johnson,10.88,1.0
+2204,Unit Type 15,2/1.00,Patricia J. Morgan,11.47,1.0
+2205,Unit Type 15,2/1.00,Andrew P. Bravo Serrano,45.88,0.0
+2206,Unit Type 13,2/1.00,Laura D. Torres,10.88,4.0
+2207,Unit Type 5,1/1.00,James J. Bennett,0.0,3.0
+2301,Unit Type 1,1/1.00,Zachary Q. Collins,0.0,0.0
+2302,Unit Type 5,1/1.00,Adam R. Thompson,0.0,0.0
+2303,Unit Type 12,2/1.00,Julie S. Salcedo Marin,0.0,0.0
+2304,Unit Type 15,2/1.00,Carol T. Walker,9.99,0.0
+2305,Unit Type 15,2/1.00,Stephen Q. Richardson,0.0,0.0
+2306,Unit Type 13,2/1.00,Kenneth J. Kim,10.88,0.0
+2307,Unit Type 5,1/1.00,Kelly U. Turner,0.0,0.0
+2401,Unit Type 1,1/1.00,Debra K. Adams,6.83,0.0
+2402,Unit Type 5,1/1.00,Gary L. Johnson,0.0,1.0
+2403,Unit Type 12,2/1.00,Walter V. Diaz,0.0,0.0
+2404,Unit Type 15,2/1.00,David M. Carter,11.47,0.0
+2405,Unit Type 15,2/1.00,Victoria G. Thomas,11.47,1.0
+2406,Unit Type 13,2/1.00,Sharon W. Jackson,293.0,0.0
+2407,Unit Type 5,1/1.00,Nathan M. Rivera,7.3,1.0
+2501,Unit Type 1,1/1.00,Charles Q. Chavez,10.59,1.0
+2502,Unit Type 5,1/1.00,Sarah Y. Gonzalez,0.0,0.0
+2503,Unit Type 12,2/1.00,Sharon A. Nguyen,0.0,0.0
+2504,Unit Type 15,2/1.00,Samuel A. Edwards,11.47,0.0
+2505,Unit Type 15,2/1.00,Stephanie B. Mendoza,11.47,0.0
+2506,Unit Type 13,2/1.00,William L. Hernandez,10.88,0.0
+2507,Unit Type 5,1/1.00,Edward U. Roberts,100.16,14.0
+137 Units,,,,27699.04,149.0
+137 Units,,,,27699.04,149.0

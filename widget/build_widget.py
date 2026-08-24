@@ -1,6 +1,6 @@
 """
 Injects model/renewal_model.json into renewal_widget_template.html to produce
-renewal_widget.html -- a single self-contained file with no build step needed to use it
+renewal_widget.html, a single self-contained file with no build step needed to use it
 (just open it in a browser). Run this after scripts/export_model.py if you've retrained.
 
 Run from the repo root: python widget/build_widget.py

@@ -4,7 +4,7 @@ Regenerates model/renewal_model.json from output/renewal_features_anonymized.csv
 Run this after re-running notebook/renewal_prediction.ipynb (which produces the CSV this
 script reads). Exports the trained Gradient Boosting model as a portable JSON format
 (preprocessing stats + tree structure) so it can be scored in plain JavaScript in the
-widget with no server or Python runtime needed -- see widget/renewal_widget_template.html.
+widget with no server or Python runtime needed, see widget/renewal_widget_template.html.
 
 Run from the repo root: python scripts/export_model.py
 """
@@ -51,7 +51,7 @@ preprocess = ColumnTransformer([
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42, stratify=y)
 
 # Hyperparameters chosen in the notebook (section 5c) via a small grid search that
-# minimizes the train/test ROC AUC gap -- see the notebook for the full comparison.
+# minimizes the train/test ROC AUC gap, see the notebook for the full comparison.
 gb = Pipeline([("prep", preprocess), ("clf", GradientBoostingClassifier(
     n_estimators=100, max_depth=2, min_samples_leaf=20, subsample=0.7, learning_rate=0.03, random_state=42,
 ))])
